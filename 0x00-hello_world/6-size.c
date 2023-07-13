@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main - A program that prints a line using the printf function
- * Return: 0 (Success)
+ * main - A program that prints the size of various coputer types
+ *Return: 0 (Success)
  */
-int main(void)
+int  main(void)
 {
         char a;
 	int b;
@@ -17,3 +17,4 @@ printf("Size of a long int: %lu byte(s)\n", (unsigned long)size of (c));
 printf("Size of an long long int: %lu byte(s)\n", (unsigned long)size of (d));
 printf("Size of an float: %lu byte(s)\n", (unsigned long)size of (f));
 return (0);
+}
