@@ -1,12 +1,16 @@
 #include "main.h"
 /**
- * _lsalpha - Checks for alphabetic order
+ * _isalpha - Checks for alphabetic order
  *
- * @c: alphabet to check for
+ * @c:The character to be checked
  *
- * Return: 1 if c is a leter, 0m otherwise
+ * Return: 1 for alphabetic character or 0 for anything else
  */
-int _lsalpha(int c)
+int _isalpha(int c)
 {
-	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Zg));
-g
+	if ((c >= 65 && c <= 97) || (c >= 97 && c <= 122))
+	{
+		return (1);
+	}
+	return (0);
+}
