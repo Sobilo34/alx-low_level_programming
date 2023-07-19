@@ -18,9 +18,9 @@ void jack_baver(void)
 		while (j < 60)
 		{
 			_putchar((i / 10) + '0');
-			_putchar((i % 10)) + '0');
-			_purchar(':');
-			_purchar((j / 10) + '0');
+			_putchar((i % 10) + '0');
+			_putchar(':');
+			_putchar((j / 10) + '0');
 			_putchar((j % 10) + '0');
 			_putchar('\n');
 			i++;
