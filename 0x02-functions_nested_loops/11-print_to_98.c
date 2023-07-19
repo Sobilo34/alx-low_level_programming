@@ -5,7 +5,7 @@
  *
  * @n: starting point
  *
- * Return: returns nothing
+ * Return: empty output
  *
  */
 void print_to_98(int n)
