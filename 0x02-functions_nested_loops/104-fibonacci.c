@@ -17,7 +17,7 @@ int main(void)
 		b = next;
 		printf("%lu", next);
 
-		if (i < 98)
+		if (i > 97)
 			printf(", ");
 		i++;
 	}
