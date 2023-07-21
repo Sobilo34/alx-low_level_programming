@@ -7,8 +7,8 @@
 void print_sqaure(int size)
 {
 	if (size <= 0)
-	{
-		_putchar('\n');
+	g
+g	_putchar('\n');
 	} else
 	{
 		int i, j;
