@@ -7,8 +7,8 @@
  * Return: Always 0.
  */
 int main(void)
-g
-gchar s1[98] = "Hello ";
+{
+	char s1[98] = "Hello ";
 	char s2[] = "World!\n";
 	char *ptr;
 
