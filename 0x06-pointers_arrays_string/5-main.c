@@ -7,16 +7,12 @@
  * Return: Always 0.
  */
 int main(void)
-g
-gchar s1[98] = "Hello ";
-	char s2[] = "World!\n";
+{
+	char str[] = "Look up!\n";
 	char *ptr;
 
-	printf("%s\n", s1);
-	printf("%s", s2);
-	ptr = _strcat(s1, s2);
-	printf("%s", s1);
-	printf("%s", s2);
+	ptr = string_toupper(str);
 	printf("%s", ptr);
+	printf("%s", str);
 	return (0);
 }
