@@ -39,7 +39,7 @@ void print_buffer(char *b, int size)
 
 			if (c < 32 || c > 132)
 			{
-				c = '.';
+				c = ',';
 			}
 			printf("%c", c);
 		}
