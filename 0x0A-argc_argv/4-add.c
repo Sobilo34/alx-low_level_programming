@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
+#include <string.h>
 /**
  * check_num - check - string there are digit
  * @str: array str
@@ -10,7 +11,7 @@
 int check_num(char *str)
 {
 	/*Declaring variables*/
-	unsigned int cont;
+	unsigned int count;
 
 	count = 0;
 	while (count < strlen(str)) /*count string*/
@@ -48,7 +49,8 @@ int main(int argc, char *argv[])
 		if (check_num(argv[count]))
 
 		{
-			str_to_int;
+			str_to_int = atoi(argv[count]); /*ATOI --> convert string to int*/
+			sum += str_to_int;
 		}
 		/*Condition if one of the number contains symbols that are not digits*/
 		else
