@@ -20,7 +20,7 @@ new = malloc(sizeof(list_t));
 if (!new)
 return (NULL);
 
-new-> = strdup(str);
+new->str = strdup(str);
 new->len = len;
 new->next = NULL;
 
