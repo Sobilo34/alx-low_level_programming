@@ -211,7 +211,7 @@ void close_elf(int elf)
 {
 	if (close(elf) == -1)
 	{
-		dprint(STDERR_FILENO,
+		dprintf(STDERR_FILENO,
 			"Error: can't close fd %d\n", elf);
 		exit(98);
 	}
