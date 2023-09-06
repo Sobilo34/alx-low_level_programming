@@ -14,7 +14,7 @@ void data_print(unsigned char *e_id);
 void to_print_version(unsigned char *e_id);
 void prints_abi(unsigned char *e_id);
 void prints_osbi(unsigned char *e_id);
-void types_printer(unsigned long int e_entry unsigned char *e_id);
+void types_printer(unsigned long int e_entry, unsigned char *e_id);
 void close_my_elf(int elf);
 
 
