@@ -78,17 +78,17 @@ char *create_bufa(char *file)
 
 /**
  * close_file - To close the file descriptors
- * @f: The file descriptors to be closed
+ * @fd: The file descriptors to be closed
  */
-void close_file(int f)
+void close_file(int fd)
 {
 	int q;
 
-	q = close(f);
+	q = close(fd);
 
 	if (q == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", f);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd);
 		exit(100);
 	}
 }
