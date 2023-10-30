@@ -23,29 +23,25 @@ int append_text_to_file(const char *filename, char *text_content)
 	{
 		return (-1);
 	}
-	else if (access(filename, F_OK) == 0)
-	{
-
 		des = open(filename, O_WRONLY | O_APPEND);
 		if (des == -1)
-		return (-1);
+			return (-1);
 
-	if (text_content != NULL)
-	{
-		len = 0;
-		while (text_content[len] != '\0')
+		if (text_content != NULL)
 		{
-			len++;
-		}
-		num_byt = write(des, text_content, len);
+			len = 0;
+			while (text_content[len] != '\0')
+			{
+				len++;
+			}
+			num_byt = write(des, text_content, len);
 
-		if (num_byt == -1)
-		{
-			close(des);
-			return(-1);
+			if (num_byt == -1)
+			{
+				close(des);
+				return(-1);
+			}
 		}
-	}
-	}
 	close(des);
 	return (1);
 }
