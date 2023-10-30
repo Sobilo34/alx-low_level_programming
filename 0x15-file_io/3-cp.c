@@ -48,7 +48,13 @@ int main(int argc, char *argv[])
 	}
 	return (0);
 }
-
+/**
+ * error_and_exit - This is a function that prints error and exit afterward
+ * @a: The program to be exited from
+ * @format: The format of the error
+ * @arg: The argument passed
+ * Return: Void
+ */
 void error_and_exit(int a, const char *format, const char *arg)
 {
 	dprintf(STDERR_FILENO, format, arg);
