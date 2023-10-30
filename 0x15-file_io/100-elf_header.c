@@ -20,7 +20,7 @@ void display_elf_header_info(const Elf64_Ehdr *elf_header)
 {
 	int i;
 
-	printf("ELF Header:");
+	printf("ELF Header: \n");
 	printf("  Magic:   ");
 	for (i = 0; i < EI_NIDENT; i++)
 	{
