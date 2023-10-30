@@ -23,7 +23,7 @@ int append_text_to_file(const char *filename, char *text_content)
 	{
 		return (-1);
 	}
-	else if (access(filename, F_OK) == 1)
+	else if (access(filename, F_OK) == 0)
 	{
 
 		des = open(filename, O_WRONLY | O_APPEND);
