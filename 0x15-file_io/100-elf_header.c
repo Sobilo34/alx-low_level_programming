@@ -54,41 +54,45 @@ void display_info(const Elf64_Ehdr *elf_header)
 
 /**
  * get_os_abi - This is to return the string that represent OS/ABI
+ * @os_abi: The OS/ABI string to be generated
+ * Return: A string that represents the OS/ABI value
  */
 const char *get_os_abi(uint8_t os_abi)
 {
 	switch (os_abi)
 	{
 		case ELFOSABI_SYSV:
-			return "UNIX - System V";
+			return ("UNIX - System V");
 		case ELFOSABI_HPUX:
-			return "UNIX - HP-UX";
+			return ("UNIX - HP-UX");
 		case ELFOSABI_STANDALONE:
-			return "Standalone";
+			return ("Standalone");
 		default:
-			return "<unknown>";
+			return ("<unknown>");
 	}
 }
 
 /**
  * get_type_string - THis returns the string representation of Type
+ * @type: The type of the string to be generated
+ * Return: A string that represent the value of type
  */
 const char *get_type_string(uint16_t type)
 {
 	switch (type)
 	{
 		case ET_NONE:
-			return "None";
+			return ("None");
 		case ET_REL:
-			return "REL (Relocatable file)";
+			return ("REL (Relocatable file)");
 		case ET_EXEC:
-			return "EXEC (Executable file)";
+			return ("EXEC (Executable file)");
 		case ET_DYN:
-			return "DYN (Shared object file)";
+			return ("DYN (Shared object file)");
 		case ET_CORE:
-			return "CORE (Core file)";
+			return ("CORE (Core file)");
 		default:
-			return "<unknown>";
+			return ("<unknown>");
 	}
 }
 
