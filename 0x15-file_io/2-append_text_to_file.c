@@ -19,6 +19,11 @@ int append_text_to_file(const char *filename, char *text_content)
 		return (-1);
 	}
 
+	if (access(filename, F_OK) == -1)
+	{
+		return (-1);
+	}
+
 	des = open(filename, O_WRONLY | O_APPEND);
 	if (des == -1)
 		return (-1);
