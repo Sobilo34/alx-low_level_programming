@@ -6,10 +6,10 @@
  * @code: error code
  * @message: error message
  */
-void exit_and_error(int fnc, const char *message)
+void exit_and_error(int code, const char *message)
 {
 	dprintf(STDERR_FILENO, "Error: %s\n", message);
-	exit(fnc);
+	exit(code);
 }
 
 /**
@@ -27,7 +27,7 @@ void display_info(const Elf64_Ehdr *elf_header)
 	{
 		printf("%02x ", elf_header->e_ident[i]);
 		if (i < EI_NIDENT - 1)
-			printf( " ");
+			printf(" ");
 	}
 	printf("\n");
 
