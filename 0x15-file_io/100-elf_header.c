@@ -1,22 +1,23 @@
 #include "main.h"
 
 /**
- * exit_with_error - writes message to stderr and exits with error code
+ * exit_and_error - This is a function that writes message to stderr
+ * and exits with error code
  * @code: error code
  * @message: error message
  */
-void exit_with_error(int code, const char *message)
+void exit_and_error(int fnc, const char *message)
 {
 	fprintf(stderr, "Error: %s\n", message);
-	exit(code);
+	exit(fnc);
 }
 
 /**
- * display_elf_header_info - displays the information contained in the
+ * display_info - displays the information contained in the
  * ELF header at the start of an ELF file.
  * @elf_header: elf_header
  */
-void display_elf_header_info(const Elf64_Ehdr *elf_header)
+void display_info(const Elf64_Ehdr *elf_header)
 {
 	int i;
 
@@ -57,37 +58,41 @@ void display_elf_header_info(const Elf64_Ehdr *elf_header)
  */
 int main(int argc, char *argv[])
 {
-	int fd;
+	int des;
 	const char *filename;
 	Elf64_Ehdr elf_header;
 
 	if (argc != 2)
-		exit_with_error(98, "Usage: elf_header elf_filename");
+	{
+		exit_and_error(98, "Usage: elf_header elf_filename");
+	}
 
 	filename = argv[1];
-	fd = open(filename, O_RDONLY);
+	des = open(filename, O_RDONLY);
 
-	if (fd == -1)
-		exit_with_error(98, "Failed to open the file");
-
-	if (lseek(fd, 0, SEEK_SET) == -1)
+	if (des == -1)
 	{
-		close(fd);
-		exit_with_error(98, "Failed to seek to the beginning of the file");
+		exit_and_error(98, "Failed to open the file");
 	}
-	if (read(fd, &elf_header, sizeof(Elf64_Ehdr)) != sizeof(Elf64_Ehdr))
+
+	if (lseek(des, 0, SEEK_SET) == -1)
 	{
-		close(fd);
-		exit_with_error(98, "Failed to read ELF header");
+		close(des);
+		exit_and_error(98, "Failed to seek to the beginning of the file");
+	}
+	if (read(des, &elf_header, sizeof(Elf64_Ehdr)) != sizeof(Elf64_Ehdr))
+	{
+		close(des);
+		exit_and_error(98, "Failed to read ELF header");
 	}
 	if (memcmp(elf_header.e_ident, ELFMAG, SELFMAG) != 0)
 	{
-		close(fd);
-		exit_with_error(98, "Not an ELF file");
+		close(des);
+		exit_and_error(98, "Not an ELF file");
 	}
 
-	display_elf_header_info(&elf_header);
-	close(fd);
+	display_info(&elf_header);
+	close(des);
 
 	return (0);
 }
