@@ -8,7 +8,7 @@
  */
 void exit_and_error(int fnc, const char *message)
 {
-	fprintf(stderr, "Error: %s\n", message);
+	dprintf(STDERR_FILENO, "Error: %s\n", message);
 	exit(fnc);
 }
 
@@ -21,11 +21,13 @@ void display_info(const Elf64_Ehdr *elf_header)
 {
 	int i;
 
-	printf("ELF Header: \n");
+	printf("ELF Header:\n");
 	printf("  Magic:   ");
 	for (i = 0; i < EI_NIDENT; i++)
 	{
 		printf("%02x ", elf_header->e_ident[i]);
+		if (i < EI_NIDENT - 1)
+			printf( " ");
 	}
 	printf("\n");
 
@@ -61,6 +63,7 @@ int main(int argc, char *argv[])
 	int des;
 	const char *filename;
 	Elf64_Ehdr elf_header;
+	ssize_t num_bytes_read;
 
 	if (argc != 2)
 	{
@@ -80,7 +83,8 @@ int main(int argc, char *argv[])
 		close(des);
 		exit_and_error(98, "Failed to seek to the beginning of the file");
 	}
-	if (read(des, &elf_header, sizeof(Elf64_Ehdr)) != sizeof(Elf64_Ehdr))
+	num_bytes_read = read(des, &elf_header, sizeof(Elf64_Ehdr));
+	if (num_bytes_read == -1 || num_bytes_read != sizeof(Elf64_Ehdr))
 	{
 		close(des);
 		exit_and_error(98, "Failed to read ELF header");
