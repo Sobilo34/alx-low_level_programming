@@ -23,7 +23,8 @@ int main(int argc, char *argv[])
 		error_and_exit(98, "Error: Can't read from file %s\n", argv[1]);
 	}
 
-	file_to = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, 0664);
+	file_to = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR
+	| S_IRGRP | S_IWGRP | S_IROTH);
 	if (file_to == -1)
 	{
 		close(file_from);
@@ -43,9 +44,10 @@ int main(int argc, char *argv[])
 			close(file_from);
 			error_and_exit(98, "Error: Can't read from file %s\n", argv[1]);
 		}
-		close(file_from);
-		close(file_to);
 	}
+	close(file_from);
+	close(file_to);
+
 	return (0);
 }
 /**
