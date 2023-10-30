@@ -19,29 +19,29 @@ int append_text_to_file(const char *filename, char *text_content)
 		return (-1);
 	}
 
-	if (access(filename, F_OK) == -1)
+	if (access(filename, X_OK) == -1)
 	{
 		return (-1);
 	}
-		des = open(filename, O_WRONLY | O_APPEND);
-		if (des == -1)
-			return (-1);
+	des = open(filename, O_WRONLY | O_APPEND);
+	if (des == -1)
+		return (-1);
 
-		if (text_content != NULL)
+	if (text_content != NULL)
+	{
+		len = 0;
+		while (text_content[len] != '\0')
 		{
-			len = 0;
-			while (text_content[len] != '\0')
-			{
-				len++;
-			}
-			num_byt = write(des, text_content, len);
-
-			if (num_byt == -1)
-			{
-				close(des);
-				return(-1);
-			}
+			len++;
 		}
+		num_byt = write(des, text_content, len);
+
+		if (num_byt == -1)
+		{
+			close(des);
+			return(-1);
+		}
+	}
 	close(des);
 	return (1);
 }
