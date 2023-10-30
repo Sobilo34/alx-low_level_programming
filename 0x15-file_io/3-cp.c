@@ -35,10 +35,12 @@ int main(int argc, char *argv[])
 		num_byt_write = write(file_to, bufa, num_byt_read);
 		if (num_byt_write == -1)
 		{
+			close(file_to);
 			error_and_exit(99, "Error: Can't write to file %s\n", argv[2]);
 		}
 		if (num_byt_read == -1)
 		{
+			close(file_from);
 			error_and_exit(98, "Error: Can't read from file %s\n", argv[1]);
 		}
 		close(file_from);
