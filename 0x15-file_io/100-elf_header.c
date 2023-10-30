@@ -39,16 +39,57 @@ void display_info(const Elf64_Ehdr *elf_header)
 		   : "2's complement, big endian");
 	printf("  Version:                           %d (current)\n",
 	       elf_header->e_ident[EI_VERSION]);
-	printf("  OS/ABI:                            %d\n",
-	       elf_header->e_ident[EI_OSABI]);
+	printf("  OS/ABI:                            %s\n",
+	       get_os_abi(elf_header->e_ident[EI_OSABI]));
+
 	printf("  ABI Version:                       %d\n",
 	       elf_header->e_ident[EI_ABIVERSION]);
+
 	printf("  Type:                              %s\n",
-	       elf_header->e_type == ET_EXEC
-		   ? "EXEC (Executable file)"
-		   : "Other");
+	       get_type_string(elf_header->e_type));
+
 	printf("  Entry point address:               0x%lx\n",
 	       (unsigned long)elf_header->e_entry);
+}
+
+/**
+ * get_os_abi - This is to return the string that represent OS/ABI
+ */
+const char *get_os_abi(uint8_t os_abi)
+{
+	switch (os_abi)
+	{
+		case ELFOSABI_SYSV:
+			return "UNIX - System V";
+		case ELFOSABI_HPUX:
+			return "UNIX - HP-UX";
+		case ELFOSABI_STANDALONE:
+			return "Standalone";
+		default:
+			return "<unknown>";
+	}
+}
+
+/**
+ * get_type_string - THis returns the string representation of Type
+ */
+const char *get_type_string(uint16_t type)
+{
+	switch (type)
+	{
+		case ET_NONE:
+			return "None";
+		case ET_REL:
+			return "REL (Relocatable file)";
+		case ET_EXEC:
+			return "EXEC (Executable file)";
+		case ET_DYN:
+			return "DYN (Shared object file)";
+		case ET_CORE:
+			return "CORE (Core file)";
+		default:
+			return "<unknown>";
+	}
 }
 
 /**
