@@ -1,64 +1,69 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * main - program that copies the content of a file to another file
- * @argc: The number of arguments
- * @argv: string argument
- * Return: 0
- */
+*error_file - a program that checks if files can be opened
+*@file_to: file to
+*@file_from: file from
+*@argv: argument vector
+*Return: nothing
+*/
+void error_file(int file_from, int file_to, char *argv[])
+{
+	if (file_from == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
+		exit(98);
+	}
+	if (file_to == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
+		exit(99);
+	}
+}
 
+/**
+*main - a program that checks code
+*@argv: argument vector
+*@argc: argument count
+*Return: nothing
+*/
 int main(int argc, char *argv[])
 {
-	int file_from, file_to;
-	ssize_t num_byt_read, num_byt_write;
-	char bufa[1024];
+	int file_from, file_to, err_close;
+	ssize_t nchars, new;
+	char buf[1024];
 
 	if (argc != 3)
 	{
-		error_and_exit(97, "Usage: cp file_from file_to\n", "");
+		dprintf(STDERR_FILENO, "%s\n", "Usage: cp file_from file_to");
+		exit(97);
 	}
 	file_from = open(argv[1], O_RDONLY);
-	if (file_from == -1)
-	{
-		error_and_exit(98, "Error: Can't read from file %s\n", argv[1]);
-	}
+	file_to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC | O_APPEND, 0664);
+	error_file(file_from, file_to, argv);
 
-	file_to = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR
-	| S_IRGRP | S_IWGRP | S_IROTH);
-	if (file_to == -1)
+	nchars = 1024;
+	while (nchars == 1024)
 	{
-		close(file_from);
-		error_and_exit(99, "Error: Can't write to file %s\n", argv[2]);
+		nchars = read(file_from, buf, 1024);
+		if (nchars == -1)
+			error_file(-1, 0, argv);
+		new = write(file_to, buf, nchars);
+		if (new == -1)
+			error_file(0, -1, argv);
 	}
-
-	while ((num_byt_read = read(file_from, bufa, sizeof(bufa))) > 0)
+	err_close = close(file_from);
+	if (err_close == -1)
 	{
-		num_byt_write = write(file_to, bufa, num_byt_read);
-		if (num_byt_write == -1)
-		{
-			close(file_to);
-			error_and_exit(99, "Error: Can't write to file %s\n", argv[2]);
-		}
-		if (num_byt_read == -1)
-		{
-			close(file_from);
-			error_and_exit(98, "Error: Can't read from file %s\n", argv[1]);
-		}
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", file_from);
+		exit(100);
 	}
-	close(file_from);
-	close(file_to);
-
+	err_close = close(file_to);
+	if (err_close == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", file_from);
+		exit(100);
+	}
 	return (0);
-}
-/**
- * error_and_exit - This is a function that prints error and exit afterward
- * @a: The program to be exited from
- * @format: The format of the error
- * @arg: The argument passed
- * Return: Void
- */
-void error_and_exit(int a, const char *format, const char *arg)
-{
-	dprintf(STDERR_FILENO, format, arg);
-	exit(a);
 }
