@@ -51,7 +51,7 @@ void display_info(const Elf64_Ehdr *elf_header)
 			get_type_string(elf_header->e_type));
 
 	printf("  Entry point address:               0x%lx\n",
-	       (unsigned long)elf_header->e_entry & 0xFFFFFFFF);
+	       (unsigned long)elf_header->e_entry);
 }
 
 /**
