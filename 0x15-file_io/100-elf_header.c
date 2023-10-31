@@ -64,26 +64,25 @@ const char *get_os_abi(uint8_t os_abi)
 	switch (os_abi)
 	{
 		case ELFOSABI_NONE:
-			return ("UNIX - System V\n");
+			return ("UNIX - System V");
 		case ELFOSABI_HPUX:
-			return ("UNIX - HP-UX\n");
+			return ("UNIX - HP-UX");
 		case ELFOSABI_NETBSD:
-			return ("UNIX - NetBSD\n");
-			break;
+			return ("UNIX - NetBSD");
 		case ELFOSABI_LINUX:
-			return ("UNIX - Linux\n");
+			return ("UNIX - Linux");
 		case ELFOSABI_SOLARIS:
-			return ("UNIX - Solaris\n");
+			return ("UNIX - Solaris");
 		case ELFOSABI_IRIX:
-			return ("UNIX - IRIX\n");
+			return ("UNIX - IRIX");
 		case ELFOSABI_FREEBSD:
-			return ("UNIX - FreeBSD\n");
+			return ("UNIX - FreeBSD");
 		case ELFOSABI_TRU64:
-			return ("UNIX - TRU64\n");
+			return ("UNIX - TRU64");
 		case ELFOSABI_ARM:
-			return ("ARM\n");
+			return ("ARM");
 		case ELFOSABI_STANDALONE:
-			return ("Standalone App\n");
+			return ("Standalone App");
 		default:
 			return ("<unknown>");
 	}
@@ -99,15 +98,15 @@ const char *get_type_string(uint16_t type)
 	switch (type)
 	{
 		case ET_NONE:
-			return ("NONE (None)\n");
+			return ("NONE (None)");
 		case ET_REL:
-			return ("REL (Relocatable file)\n");
+			return ("REL (Relocatable file)");
 		case ET_EXEC:
-			return ("EXEC (Executable file)\n");
+			return ("EXEC (Executable file)");
 		case ET_DYN:
-			return ("DYN (Shared object file)\n");
+			return ("DYN (Shared object file)");
 		case ET_CORE:
-			return ("CORE (Core file)\n");
+			return ("CORE (Core file)");
 		default:
 			return ("<unknown>");
 	}
