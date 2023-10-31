@@ -51,7 +51,7 @@ void display_info(const Elf64_Ehdr *elf_header)
 			get_type_string(elf_header->e_type));
 
 	printf("  Entry point address:               0x%lx\n",
-	       (unsigned long)elf_header->e_entry);
+	       (unsigned long)elf_header->e_entry & 0xFFFFFFFF);
 }
 
 /**
@@ -63,12 +63,27 @@ const char *get_os_abi(uint8_t os_abi)
 {
 	switch (os_abi)
 	{
-		case ELFOSABI_SYSV:
-			return ("UNIX - System V");
+		case ELFOSABI_NONE:
+			return ("UNIX - System V\n");
 		case ELFOSABI_HPUX:
-			return ("UNIX - HP-UX");
+			return ("UNIX - HP-UX\n");
+		case ELFOSABI_NETBSD:
+			return ("UNIX - NetBSD\n");
+			break;
+		case ELFOSABI_LINUX:
+			return ("UNIX - Linux\n");
+		case ELFOSABI_SOLARIS:
+			return ("UNIX - Solaris\n");
+		case ELFOSABI_IRIX:
+			return ("UNIX - IRIX\n");
+		case ELFOSABI_FREEBSD:
+			return ("UNIX - FreeBSD\n");
+		case ELFOSABI_TRU64:
+			return ("UNIX - TRU64\n");
+		case ELFOSABI_ARM:
+			return ("ARM\n");
 		case ELFOSABI_STANDALONE:
-			return ("Standalone");
+			return ("Standalone App\n");
 		default:
 			return ("<unknown>");
 	}
@@ -84,15 +99,15 @@ const char *get_type_string(uint16_t type)
 	switch (type)
 	{
 		case ET_NONE:
-			return ("None");
+			return ("NONE (None)\n");
 		case ET_REL:
-			return ("REL (Relocatable file)");
+			return ("REL (Relocatable file)\n");
 		case ET_EXEC:
-			return ("EXEC (Executable file)");
+			return ("EXEC (Executable file)\n");
 		case ET_DYN:
-			return ("DYN (Shared object file)");
+			return ("DYN (Shared object file)\n");
 		case ET_CORE:
-			return ("CORE (Core file)");
+			return ("CORE (Core file)\n");
 		default:
 			return ("<unknown>");
 	}
