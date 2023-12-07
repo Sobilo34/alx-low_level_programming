@@ -9,8 +9,7 @@
 
 int main(int argc, char *argv[])
 {
-	char key[7];
-	char *chars;
+	char key[7], *chars;
 	int len, a, temp;
 	(void)argc;
 	chars = "A-CHRDw87lNS0E9B2TibgpnMVys5XzvtOGJcYLU+4mjW6fxqZeF3Qa1rPhdKIouk";
