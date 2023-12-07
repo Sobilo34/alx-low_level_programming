@@ -27,7 +27,7 @@ dlistint_t *insert_node(dlistint_t *temp, int n)
 }
 
 /**
- * insert_dnodeint_at_index - A function that creates 
+ * insert_dnodeint_at_index - A function that creates
  * and insert node at nth index
  * @h: pointer to head of list
  * @idx: The index
