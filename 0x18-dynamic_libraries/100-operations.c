@@ -37,7 +37,7 @@ int mul(int a, int b)
 }
 
 /**
- * div - Divides two integers
+ * sb_div - Divides two integers
  * @a: First integer
  * @b: Second integer
  * Return: Result of a divided by b

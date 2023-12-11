@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _puts: write a character or value to the stdout.
- * @s: character to be written.
+ * _puts - It writes a character or value to the stdout
+ * @s: The character to be written
  */
 void _puts(char *s)
 {

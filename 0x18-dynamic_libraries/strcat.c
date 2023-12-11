@@ -3,8 +3,8 @@
 /**
  * _strcat - This is a function that will be used for
  * concatenation of strings
- * @str2: This is the string to append to another
- * @str1: This is the string to be appended to
+ * @dest: This is the string to append to another
+ * @src: This is the string to be appended to
  * Return: A pointer/address of the added strings
  *
  */
