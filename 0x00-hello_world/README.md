@@ -1,4 +1,4 @@
 # 0x00 Hello world in C
 
 
-<img align = "center" src = "https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" />
+<img align = "center" src = "https://images.app.goo.gl/iyVGaaWA2oY8xMfg7" />
