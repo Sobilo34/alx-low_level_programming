@@ -104,5 +104,6 @@ for argument in "$@" ; do
 done
 ```
 - Once saved, exit file and change permissions to apply to all users with chmod a+x betty
-- Move the betty file into /bin/ directory or somewhere else in your $PATH with sudo mv betty /bin/
+- Move the betty file into /bin/ directory or somewhere else in your $PATH with sudo mv betty /bin/.
+
 Now, type betty <filename> to run the Betty linter!
