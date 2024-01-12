@@ -4,11 +4,17 @@
 ![C language Logo](https://i.ytimg.com/vi/r1qm2fz-bjs/maxresdefault.jpg)
 
 ## What is C language
-C is a general-purpose programming language that was created in the early 1970s by Dennis Ritchie at Bell Labs. It is known for its efficiency, low-level access to memory, and a simple syntax. C has had a significant influence on many other programming languages and is commonly used for system programming, embedded systems, and application development.
+C is a general-purpose programming language that was created in the early 1970s by Dennis Ritchie at Bell Labs. "Hello World" is a convention used for learning a new Programming language by printing a text(hello world) with a specific language. It help to know the techniques of writing a text with a particular language.
 
-## Why C language?
+## Why this C language?
+- C has form the basics/foundation of many Programming languages like C++, C#, Java, Objective -C and so on.So it's essential in software engineering field.
+- It's used in building System software like Operating system, Compilers and other system level programming.
+- It's very versatile with it usability in both Application and System software building.
+- It can help in having good career opportunity because of high demand in software industries.
 
-##  Learning Objectives
+## How to write **Hello World** in C
+
+## Objectives
 - Why C Programming is awesome
 - Who invented C
 - Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds
