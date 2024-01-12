@@ -15,12 +15,21 @@ C is a general-purpose programming language that was created in the early 1970s 
 ## How to write Hello C
 - **printf**: This is a print function that is used to print text to stdout. 
 ```C
-printf("Hello World!");
+printf("Hello World!\n");
 ```
-- **fputs**: This is used to print string. It first parameter is the string to be printed and the second parameter is the file stream(e.g stdin, stdout, specified_file_name e.t.c).
+The "\n" stand for newline.
+
+- **puts**: This function prints a string to the standard output followed by a newline character. It is simple and adds a newline automatically.
+```C
+puts("Hello, world!");
+```
+- **fputs**: This is used to write string to a file. It first parameter is the string to write and the second parameter is the file stream(e.g stdin, stdout or specified_file_name).
 
 ```C
-int fputs("hello world", stdin);
+FILE *file = fopen("example.txt", "w");
+const char *text = "Hello, fputs!";
+fputs(text, file);
+fclose(file);
 ```
 ##  Objectives
 - Why C Programming is awesome
