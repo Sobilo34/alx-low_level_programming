@@ -20,18 +20,27 @@ printf("Hello World!\n");
 The "\n" stand for newline.
 
 - **puts**: This function prints a string to the standard output followed by a newline character. It is simple and adds a newline automatically.
+
 ```C
 puts("Hello, world!");
 ```
+
 - **fputs**: This is used to write string to a file. It first parameter is the string to write and the second parameter is the file stream(e.g stdin, stdout or specified_file_name).
 
 ```C
-FILE *file = fopen("example.txt", "w");
-const char *text = "Hello, fputs!";
+FILE *file = fopen("file_name.txt", "w");
+const char *text = "Hello World!";
 fputs(text, file);
 fclose(file);
 ```
-##  Objectives
+- **putchar**: This is a function that writes a character to the standard output. It is often used in a loop for printing individual characters.
+
+```C
+char c = 'H';
+putchar(c);
+```
+
+##  Learning Objectives 
 - Why C Programming is awesome
 - Who invented C
 - Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds
