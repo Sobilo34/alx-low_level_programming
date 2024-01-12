@@ -17,7 +17,7 @@ C is a general-purpose programming language that was created in the early 1970s 
 ```C
 printf("Hello World!");
 ```
-- **fputs: This is used to print string. It first parameter is the string to be printed and the second parameter is the file stream(e.g stdin, stdout, specified_file_name e.t.c).
+- **fputs**: This is used to print string. It first parameter is the string to be printed and the second parameter is the file stream(e.g stdin, stdout, specified_file_name e.t.c).
 
 ```C
 int fputs("hello world", stdin);
