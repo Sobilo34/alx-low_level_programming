@@ -2,8 +2,14 @@
 ## My First Project in C laungauge
 
 ![C language Logo](https://i.ytimg.com/vi/r1qm2fz-bjs/maxresdefault.jpg)
-## Learning Objectives
-- Why C programming is awesome
+
+## What is C language
+C is a general-purpose programming language that was created in the early 1970s by Dennis Ritchie at Bell Labs. It is known for its efficiency, low-level access to memory, and a simple syntax. C has had a significant influence on many other programming languages and is commonly used for system programming, embedded systems, and application development.
+
+## Why C language?
+
+##  Learning Objectives
+- Why C Programming is awesome
 - Who invented C
 - Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds
 - What happens when you type gcc main.c
