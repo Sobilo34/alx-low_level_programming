@@ -8,13 +8,17 @@ C is a general-purpose programming language that was created in the early 1970s 
 
 ## Why this C language?
 - C has form the basics/foundation of many Programming languages like C++, C#, Java, Objective -C and so on.So it's essential in software engineering field.
-- It's used in building System software like Operating system, Compilers and other system level programming.
+- It's used in building System software like Operating system, other system level programming.
 - It's very versatile with it usability in both Application and System software building.
 - It can help in having good career opportunity because of high demand in software industries.
 
-## How to write **Hello World** in C
-
-## Learning Objectives
+## How to write Hello C
+- **printf**: This is a print function that is used to print text to stdout. 
+```C
+printf("Hello World!");
+```
+- 
+##  Objectives
 - Why C Programming is awesome
 - Who invented C
 - Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds
