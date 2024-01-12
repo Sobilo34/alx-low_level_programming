@@ -12,7 +12,8 @@ C is a general-purpose programming language that was created in the early 1970s 
 - It's very versatile with it usability in both Application and System software building.
 - It can help in having good career opportunity because of high demand in software industries.
 
-## How to write Hello C
+## How to write Hello World! in C
+These are the functions that can be used:
 - **printf**: This is a print function that is used to print text to stdout. 
 ```C
 printf("Hello World!\n");
