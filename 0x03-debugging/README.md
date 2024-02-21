@@ -17,32 +17,12 @@ $
 Commenting out of the part of code that makes the program to be in Infinite loop inside [1-main.c](https://github.com/Sobilo34/alx-low_level_programming/blob/master/0x03-debugging/1-main.c) file
 - Output Layout
 ```script
-$ ./1-last_digit 
-Last digit of 629438752 is 2 and is less than 6 and not 0
-$ ./1-last_digit 
-Last digit of -748255693 is -3 and is less than 6 and not 0
-$ ./1-last_digit 
-Last digit of -1052791662 is -2 and is less than 6 and not 0
-$ ./1-last_digit 
-Last digit of -284805734 is -4 and is less than 6 and not 0
-$ ./1-last_digit 
-Last digit of -284805734 is -4 and is less than 6 and not 0
-$ ./1-last_digit 
-Last digit of 491506926 is 6 and is greater than 5
-$ ./1-last_digit 
-Last digit of 954249937 is 7 and is greater than 5
-$ ./1-last_digit 
-Last digit of 652334952 is 2 and is less than 6 and not 0
-$ ./1-last_digit 
-Last digit of -729688197 is -7 and is less than 6 and not 0
-$ ./1-last_digit 
-Last digit of -729688197 is -7 and is less than 6 and not 0
-$ ./1-last_digit 
-Last digit of 45528266 is 6 and is greater than 5
-$ ./1-last_digit 
-Last digit of 45528266 is 6 and is greater than 5
-$ ./1-last_digit 
-Last digit of 809065140 is 0 and is 0
+$ gcc -std=gnu89 1-main.c -o 1-main
+$ ./1-main
+Infinite loop incoming :(
+Infinite loop avoided! \o/
+$ wc -l 1-main.c
+24 1-main.c
 $
 ```
 ### Task 2
