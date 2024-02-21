@@ -15,11 +15,11 @@ int main(void)
 		next = a + b;
 		a = b;
 		b = next;
-		
-		if (i < 97)
-			printf(", ");
 
 		printf("%lu ", next);
+
+		if (i < 97)
+			printf(", ");
 		i++;
 	}
 	putchar('\n');
