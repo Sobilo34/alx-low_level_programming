@@ -9,7 +9,7 @@ def island_perimeter(grid):
             0 represents a water zone, and 1 represents a land zone.
 
     Return:
-        int: The Perimeter(p) of the Island
+        int: The Perimeter of the Island
 
     Requirements:
         grid is a list of list of integers:
@@ -23,18 +23,18 @@ def island_perimeter(grid):
         The island doesn’t have “lakes”
         Prototype: def island_perimeter(grid):
     """
-    p = 0
-
-    # Iterate through the rows and columns of grid
+    # Iterate through each rows/colums in grid
     for i in range(len(grid)):
         for j in range(len(grid[0])):
+            # Check if the current cell is land (1)
             if grid[i][j] == 1:
-                p += 4
-
-                if j > 0 and grid[i][j - 1] == 1:
-                    p -= 2
-
-                if i > 0 and grid[i - 1][j] == 1:
-                    p -= 2
-
-    return p
+                # Check if adjacent cells (up, down, left, right)
+                if i == 0 or grid[i - 1][j] == 0:
+                    perimeter += 1
+                if i == len(grid) - 1 or grid[i + 1][j] == 0:
+                    perimeter += 1
+                if j == 0 or grid[i][j - 1] == 0:
+                    perimeter += 1
+                if j == len(grid[0]) - 1 or grid[i][j + 1] == 0:
+                    perimeter += 1
+    return perimeter
