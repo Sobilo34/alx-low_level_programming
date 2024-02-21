@@ -6,7 +6,6 @@
 A program that prints _putchar, followed by a new line.
 - Output Layout
 ```script
-$  gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 0-putchar.c -o 0-putchar
 $ ./0-putchar 
 _putchar
 $
@@ -15,7 +14,6 @@ $
 A function that prints the alphabet, in lowercase, followed by a new line.
 - Output Layout
 ```script
-$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 1-main.c 1-alphabet.c -o 1-alphabet
 $ ./1-alphabet 
 abcdefghijklmnopqrstuvwxyz
 $
@@ -41,7 +39,6 @@ $
 A function that checks for lowercase character.
 - Output Layout
 ```script
-$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 3-main.c 3-islower.c -o 3-islower
 $ ./3-islower 
 011
 $ 
@@ -50,7 +47,6 @@ $
 A function that checks for alphabetic character.
 - Output Layout
 ```script
-$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 4-main.c 4-isalpha.c -o 4-isalpha
 $ ./4-isalpha 
 1110
 $ 
@@ -70,7 +66,6 @@ $
 A function that computes the absolute value of an integer.
 - Output Layout
 ```script
-$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 6-main.c 6-abs.c -o 6-abs
 $ ./6-abs 
 1
 0
@@ -149,7 +144,6 @@ $
 A function that adds two integers and returns the result.
 - Output Layout
 ```script
-$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 10-main.c 10-add.c -o 10-add
 $ ./10-add 
 98
 $ 
@@ -239,3 +233,5 @@ A program that finds and prints the sum of the even-valued terms, followed by a 
 
 ### Task 104
 A program that finds and prints the first 98 Fibonacci numbers, starting with 1 and 2, followed by a new line.
+
+# Thank You ):   👍
