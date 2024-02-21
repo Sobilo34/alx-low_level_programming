@@ -26,11 +26,11 @@ $ wc -l 1-main.c
 $
 ```
 ### Task 2
-A program that prints the alphabet in lowercase, followed by a new line.
+Fixed the code in [2-largest_number.c]() so that it correctly prints out the largest of three numbers, no matter the case
 - Output Layout
 ```script
-$ ./2-print_alphabet 
-abcdefghijklmnopqrstuvwxyz
+$ ./2-main
+0 is the largest number
 $
 ```
 ### Task 3
