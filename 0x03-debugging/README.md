@@ -35,7 +35,7 @@ $ ./2-main
 $
 ```
 ### Task 3
-Fixed the print_remaining_days() function in 3-priint_remaining_days.c file so that the output works correctly for all dates and all leap years
+Fixed the [print_remaining_days()](https://github.com/Sobilo34/alx-low_level_programming/blob/master/0x03-debugging/3-print_remaining_days.c) function so that the output works correctly for all dates and all leap years
 - Output Layout
 ```script
 For Non-Leap Year:
