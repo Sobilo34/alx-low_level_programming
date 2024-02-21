@@ -1,6 +1,7 @@
 #  0x03. C - Debugging
 ## A Project on Undestanding the Manual Concept of Debugging
 <img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2019/5/af682f2cbb6d73fd4e42.jpg" width="100%" height="300px">
+![image](https://github.com/Sobilo34/alx-low_level_programming/assets/122975292/efbe5b13-ee30-4f7f-89ef-3a2b6ca24c3b)
 
 # Mandatory Tasks
 ### Task 0
