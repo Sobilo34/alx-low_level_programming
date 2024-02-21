@@ -19,7 +19,7 @@
 - What is the ASCII character set
 - What are the purpose of the gcc flags -m32 and -m64
 
-## Task 0
+- Task 0
 Write a program that prints _putchar, followed by a new line.
 ### Output Layout
 ```script
