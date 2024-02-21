@@ -1,5 +1,5 @@
 # 0x02. C - Functions, nested loops
-![If else logo](https://sammykingx.com.ng/wp-content/uploads/2023/03/blog_post-thumbnail.png)
+<img src="https://sammykingx.com.ng/wp-content/uploads/2023/03/blog_post-thumbnail.png" width="100%">
 
 # Mandatory Tasks
 ### Task 0
