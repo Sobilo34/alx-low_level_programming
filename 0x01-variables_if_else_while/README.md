@@ -187,10 +187,10 @@ $
 
 # Advanced Tasks
 ### Task 100
-Write a function that prints the n times table, starting with 0
+A function that prints the n times table, starting with 0
 - Output Layout
 ```script
-julien@ubuntu:~/0x02$ ./100-times_table 
+$ ./100-times_table 
 0,   0,   0,   0
 0,   1,   2,   3
 0,   2,   4,   6
@@ -247,13 +247,13 @@ $
 $ 
 ```
 ### Task 101
-Write a program that computes and prints the sum of all the multiples of 3 or 5 below 1024 (excluded), followed by a new line.
+A program that computes and prints the sum of all the multiples of 3 or 5 below 1024 (excluded), followed by a new line.
 
 ### Task 102
-Write a program that prints the first 50 Fibonacci numbers, starting with 1 and 2, followed by a new line.
+A program that prints the first 50 Fibonacci numbers, starting with 1 and 2, followed by a new line.
 
 ### Task 103
-write a program that finds and prints the sum of the even-valued terms, followed by a new line
+A program that finds and prints the sum of the even-valued terms, followed by a new line
 
 ### Task 104
-Write a program that finds and prints the first 98 Fibonacci numbers, starting with 1 and 2, followed by a new line.
+A program that finds and prints the first 98 Fibonacci numbers, starting with 1 and 2, followed by a new line.
