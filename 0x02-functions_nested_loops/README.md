@@ -1,5 +1,5 @@
 # 0x02. C - Functions, nested loops
-<img src="https://sammykingx.com.ng/wp-content/uploads/2023/03/blog_post-thumbnail.png" width="100%">
+<img src="https://sammykingx.com.ng/wp-content/uploads/2023/03/blog_post-thumbnail.png" width="100%" height="200px">
 
 # Mandatory Tasks
 ### Task 0
