@@ -29,8 +29,9 @@ $
 Fixed the code in [2-largest_number.c](https://github.com/Sobilo34/alx-low_level_programming/blob/master/0x03-debugging/2-largest_number.c) so that it correctly prints out the largest of three numbers, no matter the case
 - Output Layout
 ```script
+For Instance if a = 2, b = 3 and c = 7
 $ ./2-main
-0 is the largest number
+7 is the largest number
 $
 ```
 ### Task 3
