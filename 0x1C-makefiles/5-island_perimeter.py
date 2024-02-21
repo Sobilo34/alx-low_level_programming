@@ -14,6 +14,13 @@ def island_perimeter(grid):
     The island doesn’t have “lakes”
     Prototype: def island_perimeter(grid):
     Let Perimeter = p
+
+    Args:
+        grid (List[List[int]]): A 2D list representing the island.
+            0 represents a water zone, and 1 represents a land zone.
+
+    Return:
+        int: The Perimeter(p) of the Island
     """
     p = 0
 
