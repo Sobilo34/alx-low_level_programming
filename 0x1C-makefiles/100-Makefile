@@ -1,3 +1,5 @@
+# Usage: make [all/clean/oclean/fclean] -f [file]
+
 CC = gcc
 SRC = main.c school.c
 OBJ = $(SRC:.c=.o)
