@@ -14,7 +14,7 @@ $ wc -l 0-main.c
 $ 
 ```
 ### Task 1
-Commenting out of the part of code that makes the program to be in Infinite loop inside [1-main.c]() file
+Commenting out of the part of code that makes the program to be in Infinite loop inside [1-main.c](https://github.com/Sobilo34/alx-low_level_programming/blob/master/0x03-debugging/1-main.c) file
 - Output Layout
 ```script
 $ ./1-last_digit 
