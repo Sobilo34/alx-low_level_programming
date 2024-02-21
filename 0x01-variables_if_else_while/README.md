@@ -19,9 +19,9 @@
 - What is the ASCII character set
 - What are the purpose of the gcc flags -m32 and -m64
 
-- Task 0
+### Task 0
 Write a program that prints _putchar, followed by a new line.
-### Output Layout
+- Output Layout
 ```script
 julien@ubuntu:~/0x02$  gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 0-putchar.c -o 0-putchar
 julien@ubuntu:~/0x02$ ./0-putchar 
