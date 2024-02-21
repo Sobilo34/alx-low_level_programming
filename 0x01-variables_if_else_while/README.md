@@ -4,239 +4,153 @@
 
 # Mandatory Tasks
 ### Task 0
-A program that prints _putchar, followed by a new line.
+A program  that will assign a random number to the variable n each time it is executed. Complete the source code in order to print whether the number stored in the variable n is positive or negative
 - Output Layout
 ```script
-$  gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 0-putchar.c -o 0-putchar
-$ ./0-putchar 
+julien@ubuntu:~/0x01$ ./0-positive_or_negative 
+-520693284 is negative
+julien@ubuntu:~/0x01$ ./0-positive_or_negative 
+-973398895 is negative
+julien@ubuntu:~/0x01$ ./0-positive_or_negative 
+-199220452 is negative
+julien@ubuntu:~/0x01$ ./0-positive_or_negative 
+561319348 is positive
+julien@ubuntu:~/0x01$ ./0-positive_or_negative 
+561319348 is positive
+julien@ubuntu:~/0x01$ ./0-positive_or_negative 
+266853958 is positive
+julien@ubuntu:~/0x01$ ./0-positive_or_negative 
+-48147767 is negative
+julien@ubuntu:~/0x01$ ./0-positive_or_negative 
+0 is zero
+julien@ubuntu:~/0x01$ 
 _putchar
 $
 ```
 ### Task 1
-A function that prints the alphabet, in lowercase, followed by a new line.
+A program that will assign a random number to the variable n each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable n
 - Output Layout
 ```script
-$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 1-main.c 1-alphabet.c -o 1-alphabet
-$ ./1-alphabet 
-abcdefghijklmnopqrstuvwxyz
-$
+julien@ubuntu:~/0x01$ ./1-last_digit 
+Last digit of 629438752 is 2 and is less than 6 and not 0
+julien@ubuntu:~/0x01$ ./1-last_digit 
+Last digit of -748255693 is -3 and is less than 6 and not 0
+julien@ubuntu:~/0x01$ ./1-last_digit 
+Last digit of -1052791662 is -2 and is less than 6 and not 0
+julien@ubuntu:~/0x01$ ./1-last_digit 
+Last digit of -284805734 is -4 and is less than 6 and not 0
+julien@ubuntu:~/0x01$ ./1-last_digit 
+Last digit of -284805734 is -4 and is less than 6 and not 0
+julien@ubuntu:~/0x01$ ./1-last_digit 
+Last digit of 491506926 is 6 and is greater than 5
+julien@ubuntu:~/0x01$ ./1-last_digit 
+Last digit of 954249937 is 7 and is greater than 5
+julien@ubuntu:~/0x01$ ./1-last_digit 
+Last digit of 652334952 is 2 and is less than 6 and not 0
+julien@ubuntu:~/0x01$ ./1-last_digit 
+Last digit of -729688197 is -7 and is less than 6 and not 0
+julien@ubuntu:~/0x01$ ./1-last_digit 
+Last digit of -729688197 is -7 and is less than 6 and not 0
+julien@ubuntu:~/0x01$ ./1-last_digit 
+Last digit of 45528266 is 6 and is greater than 5
+julien@ubuntu:~/0x01$ ./1-last_digit 
+Last digit of 45528266 is 6 and is greater than 5
+julien@ubuntu:~/0x01$ ./1-last_digit 
+Last digit of 809065140 is 0 and is 0
+julien@ubuntu:~/0x01$
 ```
 ### Task 2
-A function that prints 10 times the alphabet, in lowercase, followed by a new line.
+A program that prints the alphabet in lowercase, followed by a new line.
 - Output Layout
 ```script
-$ ./2-alphabet_x10 
+julien@ubuntu:~/0x01$ ./2-print_alphabet 
 abcdefghijklmnopqrstuvwxyz
-abcdefghijklmnopqrstuvwxyz
-abcdefghijklmnopqrstuvwxyz
-abcdefghijklmnopqrstuvwxyz
-abcdefghijklmnopqrstuvwxyz
-abcdefghijklmnopqrstuvwxyz
-abcdefghijklmnopqrstuvwxyz
-abcdefghijklmnopqrstuvwxyz
-abcdefghijklmnopqrstuvwxyz
-abcdefghijklmnopqrstuvwxyz
-$ 
+julien@ubuntu:~/0x01$
 ```
 ### Task 3
-A function that checks for lowercase character.
+A program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
 - Output Layout
 ```script
-$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 3-main.c 3-islower.c -o 3-islower
-$ ./3-islower 
-011
+julien@ubuntu:~/0x01$ ./3-print_alphabets | cat -e
+abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ$
+julien@ubuntu:~/0x01$ 
 $ 
 ```
 ### Task 4
-A function that checks for alphabetic character.
+A program that prints the alphabet in lowercase, followed by a new line.
 - Output Layout
 ```script
-$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 4-main.c 4-isalpha.c -o 4-isalpha
-$ ./4-isalpha 
-1110
-$ 
+julien@ubuntu:~/0x01$ ./4-print_alphabt 
+abcdfghijklmnoprstuvwxyz
+julien@ubuntu:~/0x01$ ./4-print_alphabt | grep [eq]
+julien@ubuntu:~/0x01$ 
 ```
 ### Task 5
-A function that prints the sign of a number.
+A program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
 - Output Layout
 ```script
-$ ./5-sign 
-+, 1
-0, 0
-+, 1
--, /
-$ 
+julien@ubuntu:~/0x01$ ./5-print_numbers 
+0123456789
+julien@ubuntu:~/0x01$ 
 ```
 ### Task 6
-A function that computes the absolute value of an integer.
+A program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
 - Output Layout
 ```script
-$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 6-main.c 6-abs.c -o 6-abs
-$ ./6-abs 
-1
-0
-1
-98
-$ 
+julien@ubuntu:~/0x01$ ./6-print_numberz 
+0123456789
+julien@ubuntu:~/0x01$ 
 ```
 ### Task 7
-A function that prints the last digit of a number.
+A program that prints the lowercase alphabet in reverse, followed by a new line.
 - Output Layout
 ```script
-$ ./7-last_digit 
-8044
-$ 
+julien@ubuntu:~/0x01$ ./7-print_tebahpla
+zyxwvutsrqponmlkjihgfedcba
+julien@ubuntu:~/0x01$
 ```
 ### Task 8
-A function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
+A program that prints all the numbers of base 16 in lowercase, followed by a new line.
 - Output Layout
 ```script
-$ ./8-24 | head
-00:00
-00:01
-00:02
-00:03
-00:04
-00:05
-00:06
-00:07
-00:08
-00:09
-$ ./8-24 | tail
-23:50
-23:51
-23:52
-23:53
-23:54
-23:55
-23:56
-23:57
-23:58
-23:59
-$ ./8-24 | wc -l
-1440
-$ 
+julien@ubuntu:~/0x01$ ./8-print_base16
+0123456789abcdef
+julien@ubuntu:~/0x01$
 ```
 ### Task 9
-Write a function that prints the 9 times table, starting with 0.
+A program that prints all possible combinations of single-digit numbers.
 - Output Layout
 ```script
-$ ./9-times_table | cat -e
-0,  0,  0,  0,  0,  0,  0,  0,  0,  0$
-0,  1,  2,  3,  4,  5,  6,  7,  8,  9$
-0,  2,  4,  6,  8, 10, 12, 14, 16, 18$
-0,  3,  6,  9, 12, 15, 18, 21, 24, 27$
-0,  4,  8, 12, 16, 20, 24, 28, 32, 36$
-0,  5, 10, 15, 20, 25, 30, 35, 40, 45$
-0,  6, 12, 18, 24, 30, 36, 42, 48, 54$
-0,  7, 14, 21, 28, 35, 42, 49, 56, 63$
-0,  8, 16, 24, 32, 40, 48, 56, 64, 72$
-0,  9, 18, 27, 36, 45, 54, 63, 72, 81$
-$ ./9-times_table | tr ' ' . | cat -e
-0,..0,..0,..0,..0,..0,..0,..0,..0,..0$
-0,..1,..2,..3,..4,..5,..6,..7,..8,..9$
-0,..2,..4,..6,..8,.10,.12,.14,.16,.18$
-0,..3,..6,..9,.12,.15,.18,.21,.24,.27$
-0,..4,..8,.12,.16,.20,.24,.28,.32,.36$
-0,..5,.10,.15,.20,.25,.30,.35,.40,.45$
-0,..6,.12,.18,.24,.30,.36,.42,.48,.54$
-0,..7,.14,.21,.28,.35,.42,.49,.56,.63$
-0,..8,.16,.24,.32,.40,.48,.56,.64,.72$
-0,..9,.18,.27,.36,.45,.54,.63,.72,.81$
-$
+julien@ubuntu:~/0x01$ ./9-print_comb | cat -e
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9$
+julien@ubuntu:~/0x01$ 
 ```
 
-### Task 10
-A function that adds two integers and returns the result.
-- Output Layout
-```script
-$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 10-main.c 10-add.c -o 10-add
-$ ./10-add 
-98
-$ 
-```
-### Task 11
-A function that prints all natural numbers from n to 98, followed by a new line.
-- Output Layout
-```script
-$ ./11-98 
-0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98
-98
-111, 110, 109, 108, 107, 106, 105, 104, 103, 102, 101, 100, 99, 98
-81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98
--10, -9, -8, -7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98
-$ 
-```
 
 # Advanced Tasks
 ### Task 100
-A function that prints the n times table, starting with 0
+A program that prints all possible different combinations of two digits.
 - Output Layout
 ```script
-$ ./100-times_table 
-0,   0,   0,   0
-0,   1,   2,   3
-0,   2,   4,   6
-0,   3,   6,   9
-
-0,   0,   0,   0,   0,   0
-0,   1,   2,   3,   4,   5
-0,   2,   4,   6,   8,  10
-0,   3,   6,   9,  12,  15
-0,   4,   8,  12,  16,  20
-0,   5,  10,  15,  20,  25
-
-
-0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0
-0,   1,   2,   3,   4,   5,   6,   7,   8,   9,  10,  11,  12
-0,   2,   4,   6,   8,  10,  12,  14,  16,  18,  20,  22,  24
-0,   3,   6,   9,  12,  15,  18,  21,  24,  27,  30,  33,  36
-0,   4,   8,  12,  16,  20,  24,  28,  32,  36,  40,  44,  48
-0,   5,  10,  15,  20,  25,  30,  35,  40,  45,  50,  55,  60
-0,   6,  12,  18,  24,  30,  36,  42,  48,  54,  60,  66,  72
-0,   7,  14,  21,  28,  35,  42,  49,  56,  63,  70,  77,  84
-0,   8,  16,  24,  32,  40,  48,  56,  64,  72,  80,  88,  96
-0,   9,  18,  27,  36,  45,  54,  63,  72,  81,  90,  99, 108
-0,  10,  20,  30,  40,  50,  60,  70,  80,  90, 100, 110, 120
-0,  11,  22,  33,  44,  55,  66,  77,  88,  99, 110, 121, 132
-0,  12,  24,  36,  48,  60,  72,  84,  96, 108, 120, 132, 144
-$ ./100-times_table | tr ' ' . | cat -e
-0,...0,...0,...0$
-0,...1,...2,...3$
-0,...2,...4,...6$
-0,...3,...6,...9$
-$
-0,...0,...0,...0,...0,...0$
-0,...1,...2,...3,...4,...5$
-0,...2,...4,...6,...8,..10$
-0,...3,...6,...9,..12,..15$
-0,...4,...8,..12,..16,..20$
-0,...5,..10,..15,..20,..25$
-$
-$
-0,...0,...0,...0,...0,...0,...0,...0,...0,...0,...0,...0,...0$
-0,...1,...2,...3,...4,...5,...6,...7,...8,...9,..10,..11,..12$
-0,...2,...4,...6,...8,..10,..12,..14,..16,..18,..20,..22,..24$
-0,...3,...6,...9,..12,..15,..18,..21,..24,..27,..30,..33,..36$
-0,...4,...8,..12,..16,..20,..24,..28,..32,..36,..40,..44,..48$
-0,...5,..10,..15,..20,..25,..30,..35,..40,..45,..50,..55,..60$
-0,...6,..12,..18,..24,..30,..36,..42,..48,..54,..60,..66,..72$
-0,...7,..14,..21,..28,..35,..42,..49,..56,..63,..70,..77,..84$
-0,...8,..16,..24,..32,..40,..48,..56,..64,..72,..80,..88,..96$
-0,...9,..18,..27,..36,..45,..54,..63,..72,..81,..90,..99,.108$
-0,..10,..20,..30,..40,..50,..60,..70,..80,..90,.100,.110,.120$
-0,..11,..22,..33,..44,..55,..66,..77,..88,..99,.110,.121,.132$
-0,..12,..24,..36,..48,..60,..72,..84,..96,.108,.120,.132,.144$
-$ 
+julien@ubuntu:~/0x01$ ./100-print_comb3
+01, 02, 03, 04, 05, 06, 07, 08, 09, 12, 13, 14, 15, 16, 17, 18, 19, 23, 24, 25, 26, 27, 28, 29, 34, 35, 36, 37, 38, 39, 45, 46, 47, 48, 49, 56, 57, 58, 59, 67, 68, 69, 78, 79, 89
+julien@ubuntu:~/0x01$ 
 ```
 ### Task 101
-A program that computes and prints the sum of all the multiples of 3 or 5 below 1024 (excluded), followed by a new line.
+A program that prints all possible different combinations of three digits.
+- Output Layout
+```script
+julien@ubuntu:~/0x01$ ./101-print_comb4
+012, 013, 014, 015, 016, 017, 018, 019, 023, 024, 025, 026, 027, 028, 029, 034, 035, 036, 037, 038, 039, 045, 046, 047, 048, 049, 056, 057, 058, 059, 067, 068, 069, 078, 079, 089, 123, 124, 125, 126, 127, 128, 129, 134, 135, 136, 137, 138, 139, 145, 146, 147, 148, 149, 156, 157, 158, 159, 167, 168, 169, 178, 179, 189, 234, 235, 236, 237, 238, 239, 245, 246, 247, 248, 249, 256, 257, 258, 259, 267, 268, 269, 278, 279, 289, 345, 346, 347, 348, 349, 356, 357, 358, 359, 367, 368, 369, 378, 379, 389, 456, 457, 458, 459, 467, 468, 469, 478, 479, 489, 567, 568, 569, 578, 579, 589, 678, 679, 689, 789
+julien@ubuntu:~/0x01$  
 
 ### Task 102
-A program that prints the first 50 Fibonacci numbers, starting with 1 and 2, followed by a new line.
+A program that prints all possible combinations of two two-digit numbers.
+- Output Layout
+```script
+julien@ubuntu:~/0x01$ ./102-print_comb5
+00 01, 00 02, 00 03, 00 04, 00 05, 00 06, 00 07, 00 08, 00 09, 00 10, 00 11, [...] 40 91, 40 92, 40 93, 40 94, 40 95, 40 96, 40 97, 40 98, 40 99, 41 42, 41 43, 41 44, 41 45, 41 46, 41 47, 41 48, 41 49, 41 50, 41 51, 41 52, 41 53 [...] 93 95, 93 96, 93 97, 93 98, 93 99, 94 95, 94 96, 94 97, 94 98, 94 99, 95 96, 95 97, 95 98, 95 99, 96 97, 96 98, 96 99, 97 98, 97 99, 98 99
+julien@ubuntu:~/0x01$ 
 
-### Task 103
-A program that finds and prints the sum of the even-valued terms, followed by a new line
 
-### Task 104
-A program that finds and prints the first 98 Fibonacci numbers, starting with 1 and 2, followed by a new line.
+#Thank You ):   👍
