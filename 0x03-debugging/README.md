@@ -1,6 +1,6 @@
 #  0x03. C - Debugging
 ## A Project on Undestanding the Manual Concept of Debugging
-<img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2019/5/af682f2cbb6d73fd4e42.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240221T222842Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=b2f07d10226ca42fded529e533ff78339858a1775c6fa6cea045eddc05ec062c" width="100%" height="300px">
+<img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2019/5/af682f2cbb6d73fd4e42.jpg" width="100%" height="300px">
 
 # Mandatory Tasks
 ### Task 0
