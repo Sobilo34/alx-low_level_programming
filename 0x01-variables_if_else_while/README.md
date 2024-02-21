@@ -1,6 +1,6 @@
 # 0x01. C - Variables, if, else, while
 ## A Project on Coditional Statements (If else Statements and while loops)
-![If else logo](https://sammykingx.com.ng/wp-content/uploads/2023/03/blog_post_review.png)
+<img src="https://sammykingx.com.ng/wp-content/uploads/2023/03/blog_post_review.png" width="100%" height="300px">
 
 # Mandatory Tasks
 ### Task 0
