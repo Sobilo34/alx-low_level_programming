@@ -35,11 +35,22 @@ $ ./2-main
 $
 ```
 ### Task 3
-Fixed the print_remaining_days() function so that the output works correctly for all dates and all leap years
+Fixed the print_remaining_days() function in 3-priint_remaining_days.c file so that the output works correctly for all dates and all leap years
 - Output Layout
 ```script
-$ ./3-print_alphabets | cat -e
-abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ$
+For Non-Leap Year:
+$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 3-convert_day.c 3-print_remaining_days.c 3-main_a.c -o 3-main_a 
+$ ./3-main_a
+Date: 04/01/1997
+Day of the year: 91
+Remaining days: 274
+$
+
+For Leap Year:
+$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 3-convert_day.c 3-print_remaining_days.c 3-main_b.c -o 3-main_b 
+$ ./3-main_b
+Date: 02/29/2000
+Invalid date: 02/29/2000
 $
 ```
 
