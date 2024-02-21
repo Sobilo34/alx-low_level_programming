@@ -1,6 +1,6 @@
 #  0x03. C - Debugging
 ## A Project on Undestanding the Manual Concept of Debugging
-<img src="https://i.pinimg.com/736x/54/2a/1c/542a1c0ee23024c1daec8aaf7ccf3c90.jpg" width="100%" height="300px">
+<img src="https://i.pinimg.com/736x/54/2a/1c/542a1c0ee23024c1daec8aaf7ccf3c90.jpg" width="65%" height="300px" align-self="center" justify-content="center">
 
 # Mandatory Tasks
 ### Task 0
