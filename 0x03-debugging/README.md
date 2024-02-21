@@ -14,7 +14,7 @@ $ wc -l 0-main.c
 $ 
 ```
 ### Task 1
-A program that will assign a random number to the variable n each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable n
+Commenting out of the part of code that makes the program to be in Infinite loop inside [1-main.c]() file
 - Output Layout
 ```script
 $ ./1-last_digit 
