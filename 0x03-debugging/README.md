@@ -3,7 +3,7 @@
 <img src="https://i.pinimg.com/736x/54/2a/1c/542a1c0ee23024c1daec8aaf7ccf3c90.jpg" alt="Debugging Icon" width="60%" height="300px" align="right">
 
 ### Task 0
-A file named 0-main.c that tests that the function ![positive_or_negative()]() gives the correct output when given a case of 0.
+A file named 0-main.c that tests that the function ![positive_or_negative()](0x01-variables_if_else_while/0-positive_or_negative.c) gives the correct output when given a case of 0.
 - Output Layout
 ```script
 $ ./0-positive_or_negative 
