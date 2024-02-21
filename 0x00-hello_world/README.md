@@ -107,3 +107,5 @@ done
 - Move the betty file into /bin/ directory or somewhere else in your $PATH with sudo mv betty /bin/.
 
 Now, type betty <filename> to run the **Betty linter!**
+
+# Thank You ):   👍
