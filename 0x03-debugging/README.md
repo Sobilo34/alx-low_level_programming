@@ -3,28 +3,15 @@
 <img src="https://i.pinimg.com/736x/54/2a/1c/542a1c0ee23024c1daec8aaf7ccf3c90.jpg" alt="Debugging Icon" width="60%" height="300px" align="right">
 
 ### Task 0
-A file named 0-main.c that tests that the function [positive_or_negative()](https://github.com/Sobilo34/alx-low_level_programming/blob/master/0x01-variables_if_else_while/0-positive_or_negative.c) gives the correct output when given a case of 0.
+A file named 0-main.c that tests if the function [positive_or_negative()](https://github.com/Sobilo34/alx-low_level_programming/blob/master/0x01-variables_if_else_while/0-positive_or_negative.c) gives the correct output when given a case of 0.
 - Output Layout
 ```script
-$ ./0-positive_or_negative 
--520693284 is negative
-$ ./0-positive_or_negative 
--973398895 is negative
-$ ./0-positive_or_negative 
--199220452 is negative
-$ ./0-positive_or_negative 
-561319348 is positive
-$ ./0-positive_or_negative 
-561319348 is positive
-$ ./0-positive_or_negative 
-266853958 is positive
-$ ./0-positive_or_negative 
--48147767 is negative
-$ ./0-positive_or_negative 
+$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 positive_or_negative.c 0-main.c -o 0-main
+$ ./0-main
 0 is zero
+$ wc -l 0-main.c
+16 1-main.c
 $ 
-_putchar
-$
 ```
 ### Task 1
 A program that will assign a random number to the variable n each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable n
