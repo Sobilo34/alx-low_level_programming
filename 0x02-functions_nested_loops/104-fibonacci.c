@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - main block
- * Description: rogram that finds and prints the first 98 Fibonacci
+ * Description: Program that finds and prints the first 98 Fibonacci
  * numbers, starting with 1 and 2 followed by a new line
  * Return: 0
  */
@@ -15,8 +15,8 @@ int main(void)
 		next = a + b;
 		a = b;
 		b = next;
-
-		printf("%lu ", next);
+		
+		printf("%lu", next);
 
 		if (i < 97)
 			printf(", ");
