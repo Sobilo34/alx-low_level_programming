@@ -1,8 +1,7 @@
 #  0x03. C - Debugging
 ## A Project on Undestanding the Manual Concept of Debugging
-<div style=" margin-right: 20px;">
-    <img src="https://i.pinimg.com/736x/54/2a/1c/542a1c0ee23024c1daec8aaf7ccf3c90.jpg" alt="Debugging Icon" width="100%" height="400px">
-</div>
+
+<img src="https://i.pinimg.com/736x/54/2a/1c/542a1c0ee23024c1daec8aaf7ccf3c90.jpg" alt="Debugging Icon" width="100%" height="400px">
 
 ### Task 0
 Created file named 0-main.c that tests if the function [positive_or_negative()](https://github.com/Sobilo34/alx-low_level_programming/blob/master/0x01-variables_if_else_while/0-positive_or_negative.c) gives the correct output when given a case of 0.
