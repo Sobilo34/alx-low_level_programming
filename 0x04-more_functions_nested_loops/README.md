@@ -71,7 +71,7 @@ A function that prints the numbers, from 0 to 9, followed by a new line.
 - Prototype: void print_most_numbers(void);
 
 Should not print 2 and 4
-Can only use _putchar twice in your code
+Can only use _putchar twice in the code
 - Output Layout
 ```script
 $ ./4-print_most_numbers 
@@ -83,7 +83,7 @@ A function that prints 10 times the numbers, from 0 to 14, followed by a new lin
 
 - Prototype: void more_numbers(void);
 
-Can only use _putchar three times in your code
+Can only use _putchar three times in the code
 - Output Layout
 ```script
 $ ./5-more_numbers 
