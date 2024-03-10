@@ -1,5 +1,6 @@
 # 0x04. C - More functions, more nested loops
 <img src="https://sammykingx.com.ng/wp-content/uploads/2023/03/blog_post-thumbnail.png" width="100%" height="300px">
+
 ## Project description:
 This concept of this projects is to solve many problems/challenges with Nested loops
 
