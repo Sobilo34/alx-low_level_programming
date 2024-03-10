@@ -236,7 +236,9 @@ Allowed to use the standard library
 The program will be compiled with this command: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-prime_factor.c -o 100-prime_factor -lm
 - Output Layout
 ```script
-5638534
+$ ./100-prime_factor
+50829599
+$ 
 ```
 ### Task 101
 A function that prints an integer.
