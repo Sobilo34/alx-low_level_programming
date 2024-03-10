@@ -54,6 +54,7 @@ julien@ubuntu:~/0x04$
 Write a function that prints the numbers, from 0 to 9, followed by a new line.
 
 - Prototype: void print_numbers(void);
+
 You can only use _putchar twice in your code
 - Output Layout
 ```script
@@ -62,34 +63,56 @@ julien@ubuntu:~/0x04$ ./3-print_numbers | cat -e
 julien@ubuntu:~/0x04$ 
 ```
 ### Task 4
-A function that checks for alphabetic character.
+A function that prints the numbers, from 0 to 9, followed by a new line.
+
+- Prototype: void print_most_numbers(void);
+
+Do not print 2 and 4
+You can only use _putchar twice in your code
 - Output Layout
 ```script
-$ ./4-isalpha 
-1110
-$ 
+julien@ubuntu:~/0x04$ ./4-print_most_numbers 
+01356789
+julien@ubuntu:~/0x04$ 
 ```
 ### Task 5
-A function that prints the sign of a number.
+A function that prints 10 times the numbers, from 0 to 14, followed by a new line.
+
+- Prototype: void more_numbers(void);
+
+You can only use _putchar three times in your code
 - Output Layout
 ```script
-$ ./5-sign 
-+, 1
-0, 0
-+, 1
--, /
-$ 
+julien@ubuntu:~/0x04$ ./5-more_numbers 
+01234567891011121314
+01234567891011121314
+01234567891011121314
+01234567891011121314
+01234567891011121314
+01234567891011121314
+01234567891011121314
+01234567891011121314
+01234567891011121314
+01234567891011121314
+julien@ubuntu:~/0x04
 ```
 ### Task 6
-A function that computes the absolute value of an integer.
+A function that draws a straight line in the terminal.
+
+- Prototype: void print_line(int n);
+
+You can only use _putchar function to print
+Where n is the number of times the character _ should be printed
+The line should end with a \n
+If n is 0 or less, the function should only print \n
 - Output Layout
 ```script
-$ ./6-abs 
-1
-0
-1
-98
-$ 
+julien@ubuntu:~/0x04$ ./6-lines | cat -e
+$
+__$
+__________$
+$
+julien@ubuntu:~/0x04$ 
 ```
 ### Task 7
 A function that prints the last digit of a number.
