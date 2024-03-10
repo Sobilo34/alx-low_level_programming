@@ -26,29 +26,22 @@ a: 0
 $ 
 ```
 ### Task 1
-A function that prints the alphabet, in lowercase, followed by a new line.
-- Output Layout
+A function that checks for a digit (0 through 9).
+
+- Prototype: int _isdigit(int c);
+Returns 1 if c is a digit and  0 otherwise
 ```script
-$ ./1-alphabet 
-abcdefghijklmnopqrstuvwxyz
-$
+julien@ubuntu:~/0x04$ ./1-isdigit 
+0: 1
+a: 0
+julien@ubuntu:~/0x04$
 ```
 ### Task 2
-A function that prints 10 times the alphabet, in lowercase, followed by a new line.
-- Output Layout
-```script
-$ ./2-alphabet_x10 
-abcdefghijklmnopqrstuvwxyz
-abcdefghijklmnopqrstuvwxyz
-abcdefghijklmnopqrstuvwxyz
-abcdefghijklmnopqrstuvwxyz
-abcdefghijklmnopqrstuvwxyz
-abcdefghijklmnopqrstuvwxyz
-abcdefghijklmnopqrstuvwxyz
-abcdefghijklmnopqrstuvwxyz
-abcdefghijklmnopqrstuvwxyz
-abcdefghijklmnopqrstuvwxyz
-$ 
+A function that checks for a digit (0 through 9).
+
+Prototype: int _isdigit(int c);
+Returns 1 if c is a digit
+Returns 0 otherwise
 ```
 ### Task 3
 A function that checks for lowercase character.
