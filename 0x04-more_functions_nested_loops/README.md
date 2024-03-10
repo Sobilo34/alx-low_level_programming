@@ -3,12 +3,17 @@
 
 # Mandatory Tasks
 ### Task 0
-A program that prints _putchar, followed by a new line.
+A function that checks for uppercase character.
+
+Prototype: int _isupper(int c);
+Returns 1 if c is uppercase
+Returns 0 otherwise
 - Output Layout
 ```script
-$ ./0-putchar 
-_putchar
-$
+$ ./0-isuper 
+A: 1
+a: 0
+$ 
 ```
 ### Task 1
 A function that prints the alphabet, in lowercase, followed by a new line.
