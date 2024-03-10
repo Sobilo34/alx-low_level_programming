@@ -1,8 +1,8 @@
 # 0x00 Hello world in C
 ## My First Project in C laungauge
 
-<img scr="![image](https://github.com/Sobilo34/alx-low_level_programming/assets/122975292/66a5149c-1421-4b34-84e4-bd5293c265a3)
-" width="100%" height="300px">
+[image](https://github.com/Sobilo34/alx-low_level_programming/assets/122975292/a91f7153-898f-4685-b270-a155bda35f1e)
+
 
 ## What is C language
 C is a general-purpose programming language that was created in the early 1970s by Dennis Ritchie at Bell Labs. "Hello World" is a convention used for learning a new Programming language by printing a text(Hello World!) with a specific language. It help to know the techniques of writing a text with a particular language.
