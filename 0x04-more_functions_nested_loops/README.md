@@ -1,13 +1,14 @@
 # 0x04. C - More functions, more nested loops
 <img src="https://sammykingx.com.ng/wp-content/uploads/2023/03/blog_post-thumbnail.png" width="100%" height="300px">
 
+##Description:
+
 # Mandatory Tasks
 ### Task 0
 A function that checks for uppercase character.
-Prototype: int _isupper(int c);
+- Prototype: int _isupper(int c);
 
-Returns 1 if c is uppercase
-Returns 0 otherwise
+Returns 1 if c is uppercase and 0 otherwise
 
 - Output Layout
 ```script
