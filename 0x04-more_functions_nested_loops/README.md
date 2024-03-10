@@ -29,7 +29,9 @@ $
 A function that checks for a digit (0 through 9).
 
 - Prototype: int _isdigit(int c);
+  
 Returns 1 if c is a digit and  0 otherwise
+- Output Layout
 ```script
 julien@ubuntu:~/0x04$ ./1-isdigit 
 0: 1
@@ -37,19 +39,27 @@ a: 0
 julien@ubuntu:~/0x04$
 ```
 ### Task 2
-A function that checks for a digit (0 through 9).
+A function that multiplies two integers.
 
-Prototype: int _isdigit(int c);
-Returns 1 if c is a digit
-Returns 0 otherwise
-```
-### Task 3
-A function that checks for lowercase character.
+- Prototype: int mul(int a, int b);
+  
 - Output Layout
 ```script
-$ ./3-islower 
-011
-$ 
+julien@ubuntu:~/0x04$ ./2-mul 
+100352
+-1646592
+julien@ubuntu:~/0x04$
+```
+### Task 3
+Write a function that prints the numbers, from 0 to 9, followed by a new line.
+
+- Prototype: void print_numbers(void);
+You can only use _putchar twice in your code
+- Output Layout
+```script
+julien@ubuntu:~/0x04$ ./3-print_numbers | cat -e
+0123456789$
+julien@ubuntu:~/0x04$ 
 ```
 ### Task 4
 A function that checks for alphabetic character.
