@@ -1,7 +1,8 @@
 # 0x00 Hello world in C
 ## My First Project in C laungauge
 
-[image](https://github.com/Sobilo34/alx-low_level_programming/assets/122975292/a91f7153-898f-4685-b270-a155bda35f1e)
+![image](https://github.com/Sobilo34/alx-low_level_programming/assets/122975292/9d4a731a-18d8-49fc-9766-b56319a77b9f)
+
 
 
 ## What is C language
