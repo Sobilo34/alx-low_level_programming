@@ -2,7 +2,7 @@
 <img src="https://sammykingx.com.ng/wp-content/uploads/2023/03/blog_post-thumbnail.png" width="100%" height="300px">
 
 ## Project description:
-This concept of this projects is to solve many problems/challenges with Nested loops
+This concept of this project is to solve many problems/challenges with Nested loops
 
 ## Learning Objectives:
 - What are nested loops and how to use them
@@ -13,7 +13,7 @@ This concept of this projects is to solve many problems/challenges with Nested l
 - What are the gcc flags -Wall -Werror -pedantic -Wextra -std=gnu89
 - What are header files and how to to use them with #include
 
-The following is the description of the functionality of the Tasks with the Expected Output Layout
+The following are the description of the functionality of the Tasks with the Expected Output Layout
 # Mandatory Tasks
 ### Task 0
 A function that checks for uppercase character.
