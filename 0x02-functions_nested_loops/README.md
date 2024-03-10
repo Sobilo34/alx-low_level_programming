@@ -13,6 +13,7 @@ The Project teaches the introductory concept of Nested Loops and Functions.
 - What are the gcc flags -Wall -Werror -pedantic -Wextra -std=gnu89
 - What are header files and how to to use them with #include
 
+The Following are the description of the project tasks with the outpur layout of each task
 # Mandatory Tasks
 ### Task 0
 A program that prints _putchar, followed by a new line.
