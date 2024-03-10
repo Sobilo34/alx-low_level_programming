@@ -1,6 +1,18 @@
 # 0x02. C - Functions, nested loops
 <img src="https://sammykingx.com.ng/wp-content/uploads/2023/03/blog_post-thumbnail.png" width="100%" height="300px">
 
+## Project Description:
+The Project teaches the introductory concept of Nested Loops and Functions.
+
+## Learning Objectives:
+- What are nested loops and how to use them
+- What is a function and how do you use functions
+- What is the difference between a declaration and a definition of a function
+- What is a prototype
+- Scope of variables
+- What are the gcc flags -Wall -Werror -pedantic -Wextra -std=gnu89
+- What are header files and how to to use them with #include
+
 # Mandatory Tasks
 ### Task 0
 A program that prints _putchar, followed by a new line.
