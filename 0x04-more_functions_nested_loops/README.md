@@ -1,5 +1,5 @@
 # 0x04. C - More functions, more nested loops
-<!--img src="https://sammykingx.com.ng/wp-content/uploads/2023/03/blog_post-thumbnail.png" width="100%" height="300px"-->
+
 ![image](https://github.com/Sobilo34/alx-low_level_programming/assets/122975292/5e578582-464f-48b6-9e64-7e260890d9b6)
 
 
