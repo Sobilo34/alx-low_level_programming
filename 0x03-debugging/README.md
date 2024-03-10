@@ -10,7 +10,8 @@ This concept of this project is to learn how to debug codes with bugs manually.
 - What is debugging
 - What are some methods of debugging manually
 - How to read the error messages
-THe following are the descriptions of the functionality of the tasks together with the Output Layout
+
+The following are the descriptions of the functionality of the tasks together with the Output Layout
 
 ### Task 0
 Created file named 0-main.c that tests if the function [positive_or_negative()](https://github.com/Sobilo34/alx-low_level_programming/blob/master/0x01-variables_if_else_while/0-positive_or_negative.c) gives the correct output when given a case of 0.
