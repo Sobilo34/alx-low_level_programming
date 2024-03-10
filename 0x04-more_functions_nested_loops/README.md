@@ -2,7 +2,7 @@
 <img src="https://sammykingx.com.ng/wp-content/uploads/2023/03/blog_post-thumbnail.png" width="100%" height="300px">
 
 ## Project description:
-This concept of this project is to solve many problems/challenges with Nested loops
+The concept of this project is to solve many problems/challenges with Nested loops
 
 ## Learning Objectives:
 - What are nested loops and how to use them
