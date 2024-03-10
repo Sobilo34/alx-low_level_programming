@@ -58,7 +58,7 @@ A function that prints the numbers, from 0 to 9, followed by a new line.
 
 - Prototype: void print_numbers(void);
 
-Can only use _putchar twice in your code
+Can only use _putchar twice in the code
 - Output Layout
 ```script
 $ ./3-print_numbers | cat -e
