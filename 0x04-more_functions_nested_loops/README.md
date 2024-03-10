@@ -10,6 +10,7 @@
 - What are the gcc flags -Wall -Werror -pedantic -Wextra -std=gnu89
 - What are header files and how to to use them with #include
 
+The following is the description of the functionality of the Tasks with the Expected Output Layout
 # Mandatory Tasks
 ### Task 0
 A function that checks for uppercase character.
