@@ -1,5 +1,7 @@
 # 0x04. C - More functions, more nested loops
 <img src="https://sammykingx.com.ng/wp-content/uploads/2023/03/blog_post-thumbnail.png" width="100%" height="300px">
+## Project description:
+This concept of this projects is to solve many problems/challenges with Nested loops
 
 ## Learning Objectives:
 - What are nested loops and how to use them
@@ -45,45 +47,45 @@ A function that multiplies two integers.
   
 - Output Layout
 ```script
-julien@ubuntu:~/0x04$ ./2-mul 
+$ ./2-mul 
 100352
 -1646592
-julien@ubuntu:~/0x04$
+$
 ```
 ### Task 3
-Write a function that prints the numbers, from 0 to 9, followed by a new line.
+A function that prints the numbers, from 0 to 9, followed by a new line.
 
 - Prototype: void print_numbers(void);
 
-You can only use _putchar twice in your code
+Can only use _putchar twice in your code
 - Output Layout
 ```script
-julien@ubuntu:~/0x04$ ./3-print_numbers | cat -e
+$ ./3-print_numbers | cat -e
 0123456789$
-julien@ubuntu:~/0x04$ 
+$ 
 ```
 ### Task 4
 A function that prints the numbers, from 0 to 9, followed by a new line.
 
 - Prototype: void print_most_numbers(void);
 
-Do not print 2 and 4
-You can only use _putchar twice in your code
+Should not print 2 and 4
+Can only use _putchar twice in your code
 - Output Layout
 ```script
-julien@ubuntu:~/0x04$ ./4-print_most_numbers 
+$ ./4-print_most_numbers 
 01356789
-julien@ubuntu:~/0x04$ 
+$ 
 ```
 ### Task 5
 A function that prints 10 times the numbers, from 0 to 14, followed by a new line.
 
 - Prototype: void more_numbers(void);
 
-You can only use _putchar three times in your code
+Can only use _putchar three times in your code
 - Output Layout
 ```script
-julien@ubuntu:~/0x04$ ./5-more_numbers 
+$ ./5-more_numbers 
 01234567891011121314
 01234567891011121314
 01234567891011121314
@@ -94,176 +96,166 @@ julien@ubuntu:~/0x04$ ./5-more_numbers
 01234567891011121314
 01234567891011121314
 01234567891011121314
-julien@ubuntu:~/0x04
+$
 ```
 ### Task 6
 A function that draws a straight line in the terminal.
 
 - Prototype: void print_line(int n);
 
-You can only use _putchar function to print
+Can only use _putchar function to print
 Where n is the number of times the character _ should be printed
 The line should end with a \n
 If n is 0 or less, the function should only print \n
 - Output Layout
 ```script
-julien@ubuntu:~/0x04$ ./6-lines | cat -e
+$ ./6-lines | cat -e
 $
 __$
 __________$
 $
-julien@ubuntu:~/0x04$ 
+$ 
 ```
 ### Task 7
-A function that prints the last digit of a number.
+A function that draws a diagonal line on the terminal.
+
+- Prototype: void print_diagonal(int n);
+
+Can only use _putchar function to print
+Where n is the number of times the character \ should be printed
+The diagonal should end with a \n
+If n is 0 or less, the function should only print a \n
 - Output Layout
 ```script
-$ ./7-last_digit 
-8044
+$ ./7-diagonals | cat -e
+$
+\$
+ \$
+\$
+ \$
+  \$
+   \$
+    \$
+     \$
+      \$
+       \$
+        \$
+         \$
+$
 $ 
 ```
 ### Task 8
-A function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
+A function that prints a square, followed by a new line.
+
+- Prototype: void print_square(int size);
+
+Can only use _putchar function to print
+Where size is the size of the square
+If size is 0 or less, the function should print only a new line
+Use the character # to print the square
 - Output Layout
 ```script
-$ ./8-24 | head
-00:00
-00:01
-00:02
-00:03
-00:04
-00:05
-00:06
-00:07
-00:08
-00:09
-$ ./8-24 | tail
-23:50
-23:51
-23:52
-23:53
-23:54
-23:55
-23:56
-23:57
-23:58
-23:59
-$ ./8-24 | wc -l
-1440
+$ ./8-squares 
+##
+##
+##########
+##########
+##########
+##########
+##########
+##########
+##########
+##########
+##########
+##########
+
 $ 
 ```
 ### Task 9
-Write a function that prints the 9 times table, starting with 0.
+A program that prints the numbers from 1 to 100, followed by a new line. But for multiples of three print Fizz instead of the number and for the multiples of five print Buzz. For numbers which are multiples of both three and five print FizzBuzz.
+
+Each number or word should be separated by a space
+Allowed to use the standard library
 - Output Layout
 ```script
-$ ./9-times_table | cat -e
-0,  0,  0,  0,  0,  0,  0,  0,  0,  0$
-0,  1,  2,  3,  4,  5,  6,  7,  8,  9$
-0,  2,  4,  6,  8, 10, 12, 14, 16, 18$
-0,  3,  6,  9, 12, 15, 18, 21, 24, 27$
-0,  4,  8, 12, 16, 20, 24, 28, 32, 36$
-0,  5, 10, 15, 20, 25, 30, 35, 40, 45$
-0,  6, 12, 18, 24, 30, 36, 42, 48, 54$
-0,  7, 14, 21, 28, 35, 42, 49, 56, 63$
-0,  8, 16, 24, 32, 40, 48, 56, 64, 72$
-0,  9, 18, 27, 36, 45, 54, 63, 72, 81$
-$ ./9-times_table | tr ' ' . | cat -e
-0,..0,..0,..0,..0,..0,..0,..0,..0,..0$
-0,..1,..2,..3,..4,..5,..6,..7,..8,..9$
-0,..2,..4,..6,..8,.10,.12,.14,.16,.18$
-0,..3,..6,..9,.12,.15,.18,.21,.24,.27$
-0,..4,..8,.12,.16,.20,.24,.28,.32,.36$
-0,..5,.10,.15,.20,.25,.30,.35,.40,.45$
-0,..6,.12,.18,.24,.30,.36,.42,.48,.54$
-0,..7,.14,.21,.28,.35,.42,.49,.56,.63$
-0,..8,.16,.24,.32,.40,.48,.56,.64,.72$
-0,..9,.18,.27,.36,.45,.54,.63,.72,.81$
-$
+$ ./9-fizz_buzz 
+1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 FizzBuzz 16 17 Fizz 19 Buzz Fizz 22 23 Fizz Buzz 26 Fizz 28 29 FizzBuzz 31 32 Fizz 34 Buzz Fizz 37 38 Fizz Buzz 41 Fizz 43 44 FizzBuzz 46 47 Fizz 49 Buzz Fizz 52 53 Fizz Buzz 56 Fizz 58 59 FizzBuzz 61 62 Fizz 64 Buzz Fizz 67 68 Fizz Buzz 71 Fizz 73 74 FizzBuzz 76 77 Fizz 79 Buzz Fizz 82 83 Fizz Buzz 86 Fizz 88 89 FizzBuzz 91 92 Fizz 94 Buzz Fizz 97 98 Fizz Buzz
+$ 
 ```
 
 ### Task 10
-A function that adds two integers and returns the result.
+A function that prints a triangle, followed by a new line.
+
+- Prototype: void print_triangle(int size);
+
+Can only use _putchar function to print
+Where size is the size of the triangle
+If size is 0 or less, the function should print only a new line
+Use the character # to print the triangle
 - Output Layout
 ```script
-$ ./10-add 
-98
-$ 
-```
-### Task 11
-A function that prints all natural numbers from n to 98, followed by a new line.
-- Output Layout
-```script
-$ ./11-98 
-0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98
-98
-111, 110, 109, 108, 107, 106, 105, 104, 103, 102, 101, 100, 99, 98
-81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98
--10, -9, -8, -7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98
-$ 
+$ ./10-triangles 
+ #
+##
+         #
+        ##
+       ###
+      ####
+     #####
+    ######
+   #######
+  ########
+ #########
+##########
+#
+
+$ ./10-triangles | tr ' ' . | cat -e
+.#$
+##$
+.........#$
+........##$
+.......###$
+......####$
+.....#####$
+....######$
+...#######$
+..########$
+.#########$
+##########$
+#$
+$
+$
 ```
 
 # Advanced Tasks
 ### Task 100
-A function that prints the n times table, starting with 0
+A program that finds and prints the largest prime factor of the number 612852475143, followed by a new line.
+
+Allowed to use the standard library
+The program will be compiled with this command: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-prime_factor.c -o 100-prime_factor -lm
 - Output Layout
 ```script
-$ ./100-times_table 
-0,   0,   0,   0
-0,   1,   2,   3
-0,   2,   4,   6
-0,   3,   6,   9
-
-0,   0,   0,   0,   0,   0
-0,   1,   2,   3,   4,   5
-0,   2,   4,   6,   8,  10
-0,   3,   6,   9,  12,  15
-0,   4,   8,  12,  16,  20
-0,   5,  10,  15,  20,  25
-
-
-0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0
-0,   1,   2,   3,   4,   5,   6,   7,   8,   9,  10,  11,  12
-0,   2,   4,   6,   8,  10,  12,  14,  16,  18,  20,  22,  24
-0,   3,   6,   9,  12,  15,  18,  21,  24,  27,  30,  33,  36
-0,   4,   8,  12,  16,  20,  24,  28,  32,  36,  40,  44,  48
-0,   5,  10,  15,  20,  25,  30,  35,  40,  45,  50,  55,  60
-0,   6,  12,  18,  24,  30,  36,  42,  48,  54,  60,  66,  72
-0,   7,  14,  21,  28,  35,  42,  49,  56,  63,  70,  77,  84
-0,   8,  16,  24,  32,  40,  48,  56,  64,  72,  80,  88,  96
-0,   9,  18,  27,  36,  45,  54,  63,  72,  81,  90,  99, 108
-0,  10,  20,  30,  40,  50,  60,  70,  80,  90, 100, 110, 120
-0,  11,  22,  33,  44,  55,  66,  77,  88,  99, 110, 121, 132
-0,  12,  24,  36,  48,  60,  72,  84,  96, 108, 120, 132, 144
-$ ./100-times_table | tr ' ' . | cat -e
-0,...0,...0,...0$
-0,...1,...2,...3$
-0,...2,...4,...6$
-0,...3,...6,...9$
-$
-0,...0,...0,...0,...0,...0$
-0,...1,...2,...3,...4,...5$
-0,...2,...4,...6,...8,..10$
-0,...3,...6,...9,..12,..15$
-0,...4,...8,..12,..16,..20$
-0,...5,..10,..15,..20,..25$
-$
-$
-0,...0,...0,...0,...0,...0,...0,...0,...0,...0,...0,...0,...0$
-0,...1,...2,...3,...4,...5,...6,...7,...8,...9,..10,..11,..12$
-0,...2,...4,...6,...8,..10,..12,..14,..16,..18,..20,..22,..24$
-0,...3,...6,...9,..12,..15,..18,..21,..24,..27,..30,..33,..36$
-0,...4,...8,..12,..16,..20,..24,..28,..32,..36,..40,..44,..48$
-0,...5,..10,..15,..20,..25,..30,..35,..40,..45,..50,..55,..60$
-0,...6,..12,..18,..24,..30,..36,..42,..48,..54,..60,..66,..72$
-0,...7,..14,..21,..28,..35,..42,..49,..56,..63,..70,..77,..84$
-0,...8,..16,..24,..32,..40,..48,..56,..64,..72,..80,..88,..96$
-0,...9,..18,..27,..36,..45,..54,..63,..72,..81,..90,..99,.108$
-0,..10,..20,..30,..40,..50,..60,..70,..80,..90,.100,.110,.120$
-0,..11,..22,..33,..44,..55,..66,..77,..88,..99,.110,.121,.132$
-0,..12,..24,..36,..48,..60,..72,..84,..96,.108,.120,.132,.144$
-$ 
+5638534
 ```
 ### Task 101
-A program that computes and prints the sum of all the multiples of 3 or 5 below 1024 (excluded), followed by a new line.
+A function that prints an integer.
+
+- Prototype: void print_number(int n);
+
+Can only use _putchar function to print
+Not allowed to use long
+Not allowed to use arrays or pointers
+Not allowed to hard-code special values
+
+- Output Layout
+```script
+$ ./101-print_numbers 
+98
+402
+1024
+0
+-98
+$ 
+```
 
 Thank You ): 👍
