@@ -1,6 +1,7 @@
 # 0x05. C - Pointers, arrays and strings
 
-![image](https://github.com/Sobilo34/alx-low_level_programming/assets/122975292/237df433-349c-4259-a344-6db3c547f8e5)
+![image](https://github.com/Sobilo34/alx-low_level_programming/assets/122975292/a762ef23-5800-49ef-b014-088089211fa4)
+
 
 
 
