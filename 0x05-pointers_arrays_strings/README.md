@@ -91,7 +91,7 @@ A function that prints every other character of a string, starting with the firs
 
 - Prototype: void puts2(char *str);
 
-- main file
+- Entry Point
 ```C
 int main(void)
 {
@@ -116,7 +116,7 @@ A function that prints half of a string, followed by a new line.
 The function should print the second half of the string
 If the number of characters is odd, the function should print the last n characters of the string, where n = (length_of_the_string - 1) / 2
 
-- main file
+- Entry Point
 ```C
 int main(void)
 {
@@ -144,7 +144,7 @@ Numbers must be separated by comma, followed by a space
 The numbers should be displayed in the same order as they are stored in the array
 Allowed to use printf
 
-- main file
+- Entry Point
 ```C
 int main(void)
 {
@@ -170,7 +170,7 @@ A function that copies the string pointed to by src, including the terminating n
 - Prototype: char *_strcpy(char *dest, char *src);
   Return value: the pointer to dest
   
-- main file
+- Entry Point
 ```C
 int main(void)
 {
@@ -205,7 +205,7 @@ You are not allowed to declare new variables of “type” array
 You are not allowed to hard-code special values
 We will use the -fsanitize=signed-integer-overflow gcc flag to compile your code.
 
-- main file
+- Entry Point
 ```C
 int main(void)
 {
@@ -258,6 +258,7 @@ gdb and objdump can help
 ```script
 $ ./101-crackme "`./101-keygen`"
 Tada! Congrats
-$ 
+$
+```
 
 # Thank You ): 👍
