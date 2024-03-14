@@ -91,7 +91,7 @@ A function that prints every other character of a string, starting with the firs
 
 - Prototype: void puts2(char *str);
 
--main file
+- main file
 ```C
 int main(void)
 {
@@ -109,147 +109,155 @@ $ ./6-puts2
 $ 
 ```
 ### Task 7
-A function that draws a diagonal line on the terminal.
+A function that prints half of a string, followed by a new line.
 
 - Prototype: void print_diagonal(int n);
 
-Can only use _putchar function to print
-Where n is the number of times the character \ should be printed
-The diagonal should end with a \n
-If n is 0 or less, the function should only print a \n
+The function should print the second half of the string
+If the number of characters is odd, the function should print the last n characters of the string, where n = (length_of_the_string - 1) / 2
+
+- main file
+```C
+int main(void)
+{
+    char *str;
+
+    str = "0123456789";
+    puts_half(str);
+    return (0);
+}
+```
 - Output Layout
 ```script
-$ ./7-diagonals | cat -e
-$
-\$
- \$
-\$
- \$
-  \$
-   \$
-    \$
-     \$
-      \$
-       \$
-        \$
-         \$
-$
+$ ./7-puts_half 
+56789
 $ 
 ```
+
 ### Task 8
-A function that prints a square, followed by a new line.
+A function that prints n elements of an array of integers, followed by a new line.
 
-- Prototype: void print_square(int size);
+- Prototype:void print_array(int *a, int n);
 
-Can only use _putchar function to print
-Where size is the size of the square
-If size is 0 or less, the function should print only a new line
-Use the character # to print the square
+where n is the number of elements of the array to be printed
+Numbers must be separated by comma, followed by a space
+The numbers should be displayed in the same order as they are stored in the array
+Allowed to use printf
+
+- main file
+```C
+int main(void)
+{
+    int array[5];
+
+    array[0] = 98;
+    array[1] = 402;
+    array[2] = -198;
+    array[3] = 298;
+    array[4] = -1024;
+    print_array(array, 5);
+    return (0);
+}
+```
 - Output Layout
 ```script
-$ ./8-squares 
-##
-##
-##########
-##########
-##########
-##########
-##########
-##########
-##########
-##########
-##########
-##########
-
-$ 
+$ ./8-print_array 
+98, 402, -198, 298, -1024
+$
 ```
 ### Task 9
-A program that prints the numbers from 1 to 100, followed by a new line. But for multiples of three print Fizz instead of the number and for the multiples of five print Buzz. For numbers which are multiples of both three and five print FizzBuzz.
+A function that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
+- Prototype: char *_strcpy(char *dest, char *src);
+  Return value: the pointer to dest
+  
+- main file
+```C
+int main(void)
+{
+    char s1[98];
+    char *ptr;
 
-Each number or word should be separated by a space
-Allowed to use the standard library
-- Output Layout
-```script
-$ ./9-fizz_buzz 
-1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 FizzBuzz 16 17 Fizz 19 Buzz Fizz 22 23 Fizz Buzz 26 Fizz 28 29 FizzBuzz 31 32 Fizz 34 Buzz Fizz 37 38 Fizz Buzz 41 Fizz 43 44 FizzBuzz 46 47 Fizz 49 Buzz Fizz 52 53 Fizz Buzz 56 Fizz 58 59 FizzBuzz 61 62 Fizz 64 Buzz Fizz 67 68 Fizz Buzz 71 Fizz 73 74 FizzBuzz 76 77 Fizz 79 Buzz Fizz 82 83 Fizz Buzz 86 Fizz 88 89 FizzBuzz 91 92 Fizz 94 Buzz Fizz 97 98 Fizz Buzz
-$ 
+    ptr = _strcpy(s1, "First, solve the problem. Then, write the code\n");
+    printf("%s", s1);
+    printf("%s", ptr);
+    return (0);
+}
 ```
-
-### Task 10
-A function that prints a triangle, followed by a new line.
-
-- Prototype: void print_triangle(int size);
-
-Can only use _putchar function to print
-Where size is the size of the triangle
-If size is 0 or less, the function should print only a new line
-Use the character # to print the triangle
 - Output Layout
 ```script
-$ ./10-triangles 
- #
-##
-         #
-        ##
-       ###
-      ####
-     #####
-    ######
-   #######
-  ########
- #########
-##########
-#
-
-$ ./10-triangles | tr ' ' . | cat -e
-.#$
-##$
-.........#$
-........##$
-.......###$
-......####$
-.....#####$
-....######$
-...#######$
-..########$
-.#########$
-##########$
-#$
-$
-$
+$ ./9-strcpy 
+First, solve the problem. Then, write the code
+First, solve the problem. Then, write the code
+$ 
 ```
 
 # Advanced Tasks
 ### Task 100
-A program that finds and prints the largest prime factor of the number 612852475143, followed by a new line.
+A function that convert a string to an integer.
 
-Allowed to use the standard library
-The program will be compiled with this command: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-prime_factor.c -o 100-prime_factor -lm
+- Prototype: int _atoi(char *s);
+
+The number in the string can be preceded by an infinite number of characters
+You need to take into account all the - and + signs before the number
+If there are no numbers in the string, the function must return 0
+You are not allowed to use long
+You are not allowed to declare new variables of “type” array
+You are not allowed to hard-code special values
+We will use the -fsanitize=signed-integer-overflow gcc flag to compile your code.
+
+- main file
+```C
+int main(void)
+{
+    int nb;
+
+    nb = _atoi("98");
+    printf("%d\n", nb);
+    nb = _atoi("-402");
+    printf("%d\n", nb);
+    nb = _atoi("          ------++++++-----+++++--98");
+    printf("%d\n", nb);
+    nb = _atoi("214748364");
+    printf("%d\n", nb);
+    nb = _atoi("0");
+    printf("%d\n", nb);
+    nb = _atoi("Suite 402");
+    printf("%d\n", nb);
+    nb = _atoi("         +      +    -    -98 Battery Street; San Francisco, CA 94111 - USA             ");
+    printf("%d\n", nb);
+    nb = _atoi("---++++ -++ Sui - te -   402 #cisfun :)");
+    printf("%d\n", nb);
+    return (0);
+}
+```
 - Output Layout
 ```script
-$ ./100-prime_factor
-50829599
-$ 
+$ ./100-atoi 
+98
+-402
+-98
+214748364
+0
+402
+98
+402
+$  
 ```
+
 ### Task 101
-A function that prints an integer.
+A  a program that generates random valid passwords for the program 101-crackme.
 
 - Prototype: void print_number(int n);
 
-Can only use _putchar function to print
-Not allowed to use long
-Not allowed to use arrays or pointers
-Not allowed to hard-code special values
+You are allowed to use the standard library
+You don’t have to pass the betty-style tests (you still need to pass the betty-doc tests)
+man srand, rand, time
+gdb and objdump can help
 
 - Output Layout
 ```script
-$ ./101-print_numbers 
-98
-402
-1024
-0
--98
+$ ./101-crackme "`./101-keygen`"
+Tada! Congrats
 $ 
-```
 
 # Thank You ): 👍
