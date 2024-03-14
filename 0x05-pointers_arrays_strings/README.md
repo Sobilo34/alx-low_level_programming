@@ -42,79 +42,70 @@ a=42, b=98
 $
 ```
 ### Task 2
-A function that multiplies two integers.
+A  function that returns the length of a string.
 
-- Prototype: int mul(int a, int b);
+- Prototype: int _strlen(char *s);
   
 - Output Layout
 ```script
-$ ./2-mul 
-100352
--1646592
-$
+$ ./2-strlen 
+16
+$ 
 ```
 ### Task 3
-A function that prints the numbers, from 0 to 9, followed by a new line.
+A function that prints a string, followed by a new line, to stdout.
 
 - Prototype: void print_numbers(void);
 
-Can only use _putchar twice in the code
 - Output Layout
 ```script
-$ ./3-print_numbers | cat -e
-0123456789$
+$ ./3-puts 
+A string to be printed here
 $ 
 ```
 ### Task 4
-A function that prints the numbers, from 0 to 9, followed by a new line.
+A function that prints a string, in reverse, followed by a new line.
 
-- Prototype: void print_most_numbers(void);
+- Prototype: void print_rev(char *s);
 
-Should not print 2 and 4
-Can only use _putchar twice in the code
 - Output Layout
 ```script
-$ ./4-print_most_numbers 
-01356789
+$ ./4-print_rev 
+ereh detnirp eb ot gnirts A
 $ 
 ```
 ### Task 5
-A function that prints 10 times the numbers, from 0 to 14, followed by a new line.
+A function that reverses a string.
 
-- Prototype: void more_numbers(void);
+- Prototype: void rev_string(char *s);
 
-Can only use _putchar three times in the code
 - Output Layout
 ```script
-$ ./5-more_numbers 
-01234567891011121314
-01234567891011121314
-01234567891011121314
-01234567891011121314
-01234567891011121314
-01234567891011121314
-01234567891011121314
-01234567891011121314
-01234567891011121314
-01234567891011121314
-$
+$ ./5-rev_string 
+My School
+loohcS yM
+$ 
 ```
 ### Task 6
-A function that draws a straight line in the terminal.
+A function that prints every other character of a string, starting with the first character, followed by a new line.
 
-- Prototype: void print_line(int n);
+- Prototype: void puts2(char *str);
 
-Can only use _putchar function to print
-Where n is the number of times the character _ should be printed
-The line should end with a \n
-If n is 0 or less, the function should only print \n
+-main file
+```C
+int main(void)
+{
+    char *str;
+
+    str = "0123456789";
+    puts2(str);
+    return (0);
+}
+```
 - Output Layout
 ```script
-$ ./6-lines | cat -e
-$
-__$
-__________$
-$
+$ ./6-puts2 
+02468
 $ 
 ```
 ### Task 7
