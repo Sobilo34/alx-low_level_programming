@@ -38,10 +38,10 @@ A function that checks for a digit (0 through 9).
 Returns 1 if c is a digit and  0 otherwise
 - Output Layout
 ```script
-julien@ubuntu:~/0x04$ ./1-isdigit 
+$ ./1-isdigit 
 0: 1
 a: 0
-julien@ubuntu:~/0x04$
+$
 ```
 ### Task 2
 A function that multiplies two integers.
