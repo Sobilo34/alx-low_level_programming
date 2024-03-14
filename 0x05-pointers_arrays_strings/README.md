@@ -2,20 +2,18 @@
 
 ![image](https://github.com/Sobilo34/alx-low_level_programming/assets/122975292/a762ef23-5800-49ef-b014-088089211fa4)
 
-
-
-
 ## Project description:
-The concept of this project is to solve many problems/challenges with Nested loops
+The concept of this project is on Pointers, Arrays and Strings in C language.
++ Pointers are variables that store the memory address of another variable, allowing for efficient manipulation of data.
++ Arrays are variables of the same data type, stored in contiguous memory locations.
++ String is a one-dimensional array of characters terminated with the null character.
 
 ## Learning Objectives:
-- What are nested loops and how to use them
-- What is a function and how do you use functions
-- What is the difference between a declaration and a definition of a function
-- What is a prototype
+- What are pointers and how to use them
+- What are arrays and how to use them
+- What are the differences between pointers and arrays
+- How to use strings and how to manipulate them
 - Scope of variables
-- What are the gcc flags -Wall -Werror -pedantic -Wextra -std=gnu89
-- What are header files and how to to use them with #include
 
 The following are the description of the functionality of the Tasks with the Expected Output Layout
 # Mandatory Tasks
