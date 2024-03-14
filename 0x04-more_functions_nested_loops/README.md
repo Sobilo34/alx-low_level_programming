@@ -1,6 +1,6 @@
 # 0x04. C - More functions, more nested loops
 
-![image](https://github.com/Sobilo34/alx-low_level_programming/assets/122975292/5e578582-464f-48b6-9e64-7e260890d9b6)
+![image](![image](https://github.com/Sobilo34/alx-low_level_programming/assets/122975292/3f9e5d2d-4558-4496-9ce2-200c48ccfc74)
 
 
 ## Project description:
