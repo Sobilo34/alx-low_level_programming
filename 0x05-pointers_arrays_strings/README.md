@@ -18,30 +18,28 @@ The concept of this project is on Pointers, Arrays and Strings in C language.
 The following are the description of the functionality of the Tasks with the Expected Output Layout
 # Mandatory Tasks
 ### Task 0
-A function that checks for uppercase character.
-* Prototype: int _isupper(int c);
-
-Returns 1 if c is uppercase and 0 otherwise
+A function that takes a pointer to an int as parameter and updates the value it points to to 98.
+* Prototype: void reset_to_98(int *n);
 
 - Output Layout
 ```script
-$ ./0-isuper 
-A: 1
-a: 0
+$ ./0-98 
+n=402
+n=98
 $ 
 ```
 ### Task 1
-A function that checks for a digit (0 through 9).
+A function that swaps the values of two integers.
 
-- Prototype: int _isdigit(int c);
+- Prototype: void swap_int(int *a, int *b);
   
 Returns 1 if c is a digit and  0 otherwise
 - Output Layout
 ```script
-julien@ubuntu:~/0x04$ ./1-isdigit 
-0: 1
-a: 0
-julien@ubuntu:~/0x04$
+$ ./1-swap 
+a=98, b=42
+a=42, b=98
+$
 ```
 ### Task 2
 A function that multiplies two integers.
