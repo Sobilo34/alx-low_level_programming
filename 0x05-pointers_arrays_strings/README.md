@@ -21,6 +21,19 @@ The following are the description of the functionality of the Tasks with the Exp
 A function that takes a pointer to an int as parameter and updates the value it points to to 98.
 * Prototype: void reset_to_98(int *n);
 
+- Entry Point
+```C
+int main(void)
+{
+    int n;
+
+    n = 402;
+    printf("n=%d\n", n);
+    reset_to_98(&n);
+    printf("n=%d\n", n);
+    return (0);
+}
+```
 - Output Layout
 ```script
 $ ./0-98 
@@ -34,6 +47,21 @@ A function that swaps the values of two integers.
 - Prototype: void swap_int(int *a, int *b);
   
 Returns 1 if c is a digit and  0 otherwise
+- Entry Point
+```C
+int main(void)
+{
+    int a;
+    int b;
+
+    a = 98;
+    b = 42;
+    printf("a=%d, b=%d\n", a, b);
+    swap_int(&a, &b);
+    printf("a=%d, b=%d\n", a, b);
+    return (0);
+}
+```
 - Output Layout
 ```script
 $ ./1-swap 
@@ -45,7 +73,19 @@ $
 A  function that returns the length of a string.
 
 - Prototype: int _strlen(char *s);
-  
+  - Entry Point
+```C
+int main(void)
+{
+    char *str;
+    int len;
+
+    str = "My first strlen!";
+    len = _strlen(str);
+    printf("%d\n", len);
+    return (0);
+}
+```
 - Output Layout
 ```script
 $ ./2-strlen 
@@ -56,29 +96,60 @@ $
 A function that prints a string, followed by a new line, to stdout.
 
 - Prototype: void print_numbers(void);
+- Entry Point
+```C
+int main(void)
+{
+    char *str;
 
+    str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
+    _puts(str);
+    return (0);
+}
+```
 - Output Layout
 ```script
 $ ./3-puts 
-A string to be printed here
+I do not fear computers. I fear the lack of them - Isaac Asimov
 $ 
 ```
 ### Task 4
 A function that prints a string, in reverse, followed by a new line.
 
 - Prototype: void print_rev(char *s);
+- Entry Point
+```C
+int main(void)
+{
+    char *str;
 
+    str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
+    print_rev(str);
+    return (0);
+}
+```
 - Output Layout
 ```script
 $ ./4-print_rev 
-ereh detnirp eb ot gnirts A
+vomisA caasI - meht fo kcal eht raef I .sretupmoc raef ton od I
 $ 
 ```
 ### Task 5
 A function that reverses a string.
 
 - Prototype: void rev_string(char *s);
+- Entry Point
+```C
+int main(void)
+{
+    char s[10] = "My School";
 
+    printf("%s\n", s);
+    rev_string(s);
+    printf("%s\n", s);
+    return (0);
+}
+```
 - Output Layout
 ```script
 $ ./5-rev_string 
