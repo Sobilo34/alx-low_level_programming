@@ -2,7 +2,16 @@
 
 (![image](https://github.com/Sobilo34/alx-low_level_programming/assets/122975292/3f9e5d2d-4558-4496-9ce2-200c48ccfc74)
 
+## Table of Contents
 
+- [Project Description](#project-description)
+- [Learning Objectives](#learning-objectives)
+- [Resources](#resources)
+- [Mandatory Tasks](#mandatory-tasks)
+- [Advanced Tasks](#advanced-tasks)
+- [Contacts](#contacts)
+- [My Github Stats](#my-github-stats)
+  
 ## Project description:
 The concept of this project is to solve many problems/challenges with Nested loops
 
