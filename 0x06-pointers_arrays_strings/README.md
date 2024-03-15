@@ -2,7 +2,16 @@
 
 ![image](https://github.com/Sobilo34/alx-low_level_programming/assets/122975292/24f8e5a2-0056-4df5-8273-31edab14e0ea)
 
+## Table of Contents
 
+- [Project Description](#project-description)
+- [Learning Objectives](#learning-objectives)
+- [Resources](#resources)
+- [Mandatory Tasks](#mandatory-tasks)
+- [Advanced Tasks](#advanced-tasks)
+- [Contacts](#contacts)
+- [My Github Stats](#my-github-stats)
+  
 ## Project description:
 The concept of this project is on Pointers, Arrays and Strings in C language.
 + Pointers are variables that store the memory address of another variable, allowing for efficient manipulation of data.
