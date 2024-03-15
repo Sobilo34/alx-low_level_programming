@@ -5,13 +5,9 @@
 ## Table of Contents
 
 - [Project Description](#project-description)
-- [Commands](#commands)
-- [Tasks](#tasks)
-- [Notes](#notes)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributions](#contributions)
-- [Copyrights](#copyrights)
+- [Learning Objectives](#learning-objectives)
+- [Mandatory Tasks](#mandatory-tasks)
+- [Advanced Tasks](#advanced-tasks)
 - [Contact](#contact)
 - [My Github Stats](#my-github-stats)
 
