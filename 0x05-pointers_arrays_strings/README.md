@@ -25,6 +25,15 @@ The concept of this project is on Pointers, Arrays and Strings in C language.
 - How to use strings and how to manipulate them
 - Scope of variables
 
+#### Read or watch:
+
+* [C - Arrays](https://intranet.alxswe.com/rltoken/PVi2XMuApOK3jfhsoqsyXw)
+* [C - Pointers](https://intranet.alxswe.com/rltoken/oyHybzYBeFiLUMALpb_usA)
+* [C - Strings](https://intranet.alxswe.com/rltoken/sUeh9qDyW9pePOfJIpx_Bw)
+* [Memory Layout](https://intranet.alxswe.com/rltoken/0k6CD2ZMzSFOMUxMOBiAlQ)
+* [Arrays & Pointers in C Programming Explained](https://intranet.alxswe.com/rltoken/MiVrdKaKsnFsUOYQBtXugg)
+
+
 The following are the description of the functionality of the Tasks with the Expected Output Layout
 # Mandatory Tasks
 ### Task 0
