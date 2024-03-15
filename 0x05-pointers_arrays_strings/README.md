@@ -1,5 +1,16 @@
 # 0x05. C - Pointers, arrays and strings
+## Table of Contents
 
+- [Project Description](#project-description)
+- [Commands](#commands)
+- [Tasks](#tasks)
+- [Notes](#notes)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributions](#contributions)
+- [Copyrights](#copyrights)
+- [Contact](#contact)
+- [My Github Stats](#my-github-stats)
 ![image](https://github.com/Sobilo34/alx-low_level_programming/assets/122975292/fb401d53-e86e-43bf-9bf3-5535ef26dcf6)
 
 
