@@ -6,6 +6,7 @@
 
 - [Project Description](#project-description)
 - [Learning Objectives](#learning-objectives)
+- [Resources](#resources)
 - [Mandatory Tasks](#mandatory-tasks)
 - [Advanced Tasks](#advanced-tasks)
 - [Contact](#contact)
