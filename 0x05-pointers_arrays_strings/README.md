@@ -9,7 +9,7 @@
 - [Resources](#resources)
 - [Mandatory Tasks](#mandatory-tasks)
 - [Advanced Tasks](#advanced-tasks)
-- [Contacts](#contact)
+- [Contacts](#contacts)
 - [My Github Stats](#my-github-stats)
 
 ## Project description:
@@ -352,7 +352,6 @@ Tada! Congrats
 $
 ```
 ## Contacts
-
 [![Beacons.ai Profile](https://img.shields.io/badge/Beacon-Sobil-9cf?style=for-the-badge&logo=beacons&color=blue)](https://beacons.ai/sobil56)
 
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bilalsolih60@gmail.com)
