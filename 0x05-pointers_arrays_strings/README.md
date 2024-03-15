@@ -351,5 +351,21 @@ $ ./101-crackme "`./101-keygen`"
 Tada! Congrats
 $
 ```
+## Contact
+
+You can contact me via these media. 
+
+[![Email](https://img.shields.io/badge/Email-D14836?style=social&logo=gmail&logoColor=white)](mailto:solomonsefah13@gmail.com)
+
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=social&logo=twitter)](https://twitter.com/hunterxcobby)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=social&logo=linkedin)](https://www.linkedin.com/in/cobby-sefah-solomon-~-c-s-s-6460bb279/)
+
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=social&logo=instagram)](https://www.instagram.com/cobby_is_a_god)
+
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=social&logo=whatsapp)](https://wa.me/233557452729)
+
+## My Github Stats
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Sobilo34&show_icons=true=true&&count_public=true&include_all_commits=true" />
 
 # Thank You ): 👍
