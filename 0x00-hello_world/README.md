@@ -6,11 +6,10 @@
 ## Table of Contents
 
 - [What is C language](#what-is-c-language)
-- [Why this C language?](#why-this-c-language?)
-- [How to write Hello World! in C](#how-to-write-hello-world!-in-c)
 - [Learning Objectives](#learning-objectives)
 - [Resources](#resources)
 - [Project Requirements](#project-requirements)
+- [More Info](#more-info)
 - [Contacts](#contacts)
 - [My Github Stats](#my-github-stats)
 
