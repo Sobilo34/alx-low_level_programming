@@ -3,7 +3,15 @@
 
 ![image](https://github.com/Sobilo34/alx-low_level_programming/assets/122975292/9d4a731a-18d8-49fc-9766-b56319a77b9f)
 
+## Table of Contents
 
+- [Project Description](#project-description)
+- [Learning Objectives](#learning-objectives)
+- [Resources](#resources)
+- [Mandatory Tasks](#mandatory-tasks)
+- [Advanced Tasks](#advanced-tasks)
+- [Contacts](#contacts)
+- [My Github Stats](#my-github-stats)
 
 ## What is C language
 C is a general-purpose programming language that was created in the early 1970s by Dennis Ritchie at Bell Labs. "Hello World" is a convention used for learning a new Programming language by printing a text(Hello World!) with a specific language. It help to know the techniques of writing a text with a particular language.
