@@ -25,6 +25,7 @@ The concept of this project is on Pointers, Arrays and Strings in C language.
 - How to use strings and how to manipulate them
 - Scope of variables
 
+## Resources:
 #### Read or watch:
 
 * [C - Arrays](https://intranet.alxswe.com/rltoken/PVi2XMuApOK3jfhsoqsyXw)
