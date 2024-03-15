@@ -1,6 +1,16 @@
 # 0x01. C - Variables, if, else, while
 <img src="https://sammykingx.com.ng/wp-content/uploads/2023/03/blog_post_review.png" width="100%" height="300px">
 
+## Table of Contents
+
+- [Project Description](#project-description)
+- [Learning Objectives](#learning-objectives)
+- [Resources](#resources)
+- [Mandatory Tasks](#mandatory-tasks)
+- [Advanced Tasks](#advanced-tasks)
+- [Contacts](#contacts)
+- [My Github Stats](#my-github-stats)
+
 ## Project Description:
 The Project teaches Coditional Statements (If else Statements and while loops)
 
