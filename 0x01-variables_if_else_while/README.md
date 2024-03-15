@@ -31,6 +31,15 @@ The Project teaches Coditional Statements (If else Statements and while loops)
 - What is the ASCII character set
 - What are the purpose of the gcc flags -m32 and -m64
 
+## Resources:
+#### Read or watch:
+
+* [C - Arrays](https://intranet.alxswe.com/rltoken/PVi2XMuApOK3jfhsoqsyXw)
+* [C - Pointers](https://intranet.alxswe.com/rltoken/oyHybzYBeFiLUMALpb_usA)
+* [C - Strings](https://intranet.alxswe.com/rltoken/sUeh9qDyW9pePOfJIpx_Bw)
+* [Memory Layout](https://intranet.alxswe.com/rltoken/0k6CD2ZMzSFOMUxMOBiAlQ)
+* [Arrays & Pointers in C Programming Explained](https://intranet.alxswe.com/rltoken/MiVrdKaKsnFsUOYQBtXugg)
+  
 The Following are the description of the project tasks with the outpur layout of each task
 # Mandatory Tasks
 ### Task 0
