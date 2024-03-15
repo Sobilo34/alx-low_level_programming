@@ -1,6 +1,7 @@
 # 0x05. C - Pointers, arrays and strings
 
-![image](https://github.com/Sobilo34/alx-low_level_programming/assets/122975292/a762ef23-5800-49ef-b014-088089211fa4)
+![image](https://github.com/Sobilo34/alx-low_level_programming/assets/122975292/fb401d53-e86e-43bf-9bf3-5535ef26dcf6)
+
 
 ## Project description:
 The concept of this project is on Pointers, Arrays and Strings in C language.
