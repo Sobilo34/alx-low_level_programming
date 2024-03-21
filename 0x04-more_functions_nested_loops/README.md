@@ -27,11 +27,11 @@ The concept of this project is to solve many problems/challenges with Nested loo
 ## Resources:
 #### Read or watch:
 
-* [C - Arrays](https://intranet.alxswe.com/rltoken/PVi2XMuApOK3jfhsoqsyXw)
-* [C - Pointers](https://intranet.alxswe.com/rltoken/oyHybzYBeFiLUMALpb_usA)
-* [C - Strings](https://intranet.alxswe.com/rltoken/sUeh9qDyW9pePOfJIpx_Bw)
-* [Memory Layout](https://intranet.alxswe.com/rltoken/0k6CD2ZMzSFOMUxMOBiAlQ)
-* [Arrays & Pointers in C Programming Explained](https://intranet.alxswe.com/rltoken/MiVrdKaKsnFsUOYQBtXugg)
+* [Nested while loops](https://www.youtube.com/watch?v=Z3iGeQ1gIss)
+* [C - Functions](http://www.tutorialspoint.com/cprogramming/c_functions.htm)
+* [Learning to Program in C pt. 6](https://www.youtube.com/watch?v=qMlnFwYdqIw)
+* [Purpose of a function prototype](https://www.youtube.com/watch?v=qMlnFwYdqIw)
+* [C-Header Files](https://www.tutorialspoint.com/cprogramming/c_header_files.htm)
   
 The following are the description of the functionality of the Tasks with the Expected Output Layout
 # Mandatory Tasks
