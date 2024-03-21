@@ -34,11 +34,14 @@ The Project teaches Coditional Statements (If else Statements and while loops)
 ## Resources:
 #### Read or watch:
 
-* [C - Arrays](https://intranet.alxswe.com/rltoken/PVi2XMuApOK3jfhsoqsyXw)
-* [C - Pointers](https://intranet.alxswe.com/rltoken/oyHybzYBeFiLUMALpb_usA)
-* [C - Strings](https://intranet.alxswe.com/rltoken/sUeh9qDyW9pePOfJIpx_Bw)
-* [Memory Layout](https://intranet.alxswe.com/rltoken/0k6CD2ZMzSFOMUxMOBiAlQ)
-* [Arrays & Pointers in C Programming Explained](https://intranet.alxswe.com/rltoken/MiVrdKaKsnFsUOYQBtXugg)
+* [Keywords and identifiers](http://publications.gbdirect.co.uk/c_book/chapter2/keywords_and_identifiers.html)
+* [Integers](http://publications.gbdirect.co.uk/c_book/chapter2/integral_types.html)
+* [https://www.tutorialspoint.com/cprogramming/c_arithmetic_operators.htm](https://www.tutorialspoint.com/cprogramming/c_arithmetic_operators.htm)
+* [If Statements in C](https://www.cprogramming.com/tutorial/c/lesson2.html)
+* [If Else Statements in C](https://www.tutorialspoint.com/cprogramming/if_else_statement_in_c.htm)
+* [Relational Operators](https://www.tutorialspoint.com/cprogramming/c_relational_operators.htm)
+* [Logical Operators](https://fresh2refresh.com/c-programming/c-operators-expressions/c-logical-operators/)
+* [While Loop in C](https://www.youtube.com/watch?v=Ju1LYO9pkaI)
   
 The Following are the description of the project tasks with the outpur layout of each task
 # Mandatory Tasks
