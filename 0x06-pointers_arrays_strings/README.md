@@ -118,7 +118,7 @@ A  function that copies a string.
 - Prototype: char *_strncpy(char *dest, char *src, int n);
   + function should work exactly like strncpy
     
-  - Entry Point
+- Entry Point
 ```C
 int main(void)
 {
