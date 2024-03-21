@@ -20,20 +20,19 @@ The concept of this project is on Pointers, Arrays and Strings in C language.
 + String is a one-dimensional array of characters terminated with the null character.
 
 ## Learning Objectives:
-- What are pointers and how to use them
-- What are arrays and how to use them
-- What are the differences between pointers and arrays
-- How to use strings and how to manipulate them
-- Scope of variables
+- What are pointers to pointers and how to use them
+- What are multidimensional arrays and how to use them
+- What are the most common C standard library functions to manipulate strings
 
 ## Resources:
 #### Read or watch:
 
-* [C - Pointer to Pointer](https://intranet.hbtn.io/rltoken/97ic1ots5Y44UW4c5HBtRQ)
-* [C - Pointer to Pointer with example](https://intranet.hbtn.io/rltoken/97z8i9z1xAZuuT4rM0UEUg)
-* [Multi Dimensional Arrays in C](https://intranet.hbtn.io/rltoken/OINOASSTk6-D9PqX2oZZYw)
-* [Two dimensional arrays in C programming with example](https://intranet.hbtn.io/rltoken/i9uZ2jWeVSPZCJpgPheuEA)
-* [pointers and arrays again!](https://intranet.hbtn.io/rltoken/pvXJUy7BsqzZhdfEtR6zEw)
+* [Pointers and arrays](https://intranet.alxswe.com/concepts/60)
+* [C - Pointer to Pointer](https://intranet.alxswe.com/rltoken/eyikXPg7ZxCAEuWklB6xtQ)
+* [C – Pointer to Pointer with example](https://intranet.alxswe.com/rltoken/ojr7OUUm2I-MULE4lWlrkg)
+* [Multi-dimensional Arrays in C](https://intranet.alxswe.com/rltoken/HUZIJ6t55KM7d7FBCwWm8Q)
+* [Two dimensional (2D) arrays in C programming with example](https://intranet.alxswe.com/rltoken/Dx9nIBRj68sRBGe2NRI_aQ)
+*  [Arrays, Strings & Pointers in C Programming](https://intranet.alxswe.com/rltoken/8dnWfdRPPLVuzPQKVTGljA)
   
 The following are the description of the functionality of the Tasks with the Expected Output Layout
 # Mandatory Tasks
