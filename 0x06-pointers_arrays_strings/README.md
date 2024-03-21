@@ -381,7 +381,7 @@ $
 ### Task 101
 A function that prints an integer.
 - Prototype: void print_number(int n);
-  + You can only use _putchar function to print
+  + Can only use _putchar function to print
   + Not allowed to use long
   + Not allowed to use arrays or pointers
   + Not allowed to hard-code special values
@@ -443,7 +443,7 @@ int main(void)
   printf("a[2] = %d\n", a[2]);
   return (0);
 }
-
+```
 
 ### Task 103
 A function that adds two numbers.
