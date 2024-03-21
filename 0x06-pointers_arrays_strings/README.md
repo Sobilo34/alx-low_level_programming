@@ -533,7 +533,7 @@ A function that prints a buffer.
   + Each line shows the content of the buffer. If the byte is a printable character, print the letter, if not, print .
   + Each line ends with a new line \n
   + If size is 0 or less, the output should be a new line only \n
-  + You are allowed to use the standard library
+  + Allowed to use the standard library
   + The output should look like the following example, and formatted exactly the same way:
 
 - Entry Point
