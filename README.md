@@ -67,4 +67,5 @@ This repository requires you to have these necessary installations to function a
 
 ## My Github Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?
+## My Github Stats
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Sobilo34&show_icons=true&count_private=true&hide_title=true&hide=prs&theme=radical)
