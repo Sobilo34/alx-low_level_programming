@@ -1,5 +1,6 @@
 <h2 align="center">ALX LOW-LEVEL PROGRAMMING.</h2>
 
+<img scr="alx-image" style="height: 100px; width: 200px; align-self: center; justify-content: center;">
 This repo contains projects to help assist one get introduced to the C programming language..
 
 ## Table of Contents 
