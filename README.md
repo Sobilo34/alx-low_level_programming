@@ -1,4 +1,5 @@
-# alx-low_level_programming#
+<h2 align="center">ALX LOW-LEVEL PROGRAMMING.</h2>
+
 <p align="center">
 <a href="https://github.com/hunterxcobby"><img title="hunter" src="https://img.shields.io/badge/github-hunterxcobby-orange.svg?style=social&logo=github"></a>
 </p>
@@ -14,8 +15,6 @@
 <a href="https://github.com/hunterxcobby/alx-low_level_programming"><img src="https://img.shields.io/github/repo-size/hunterxcobby/alx-low_level_programming?label=Repo%20size&style=flat"></a>
 </p>
 
-
-<h2 align="center">ALX LOW-LEVEL PROGRAMMING.</h2>
 
 This repo contains projects to help assist one get introduced to the C programming language..
 
