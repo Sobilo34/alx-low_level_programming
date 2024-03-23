@@ -9,7 +9,7 @@ This repo contains projects to help assist one get introduced to the C programmi
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributions](#contributions)
-- [Contact](#contact)
+- [Contacts](#contact)
 - [My Github Stats](#my-github-stats)
 
 ## Repository Description
@@ -64,8 +64,6 @@ This repository requires you to have these necessary installations to function a
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bilal-oyeleke-98202825b)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/bilaloyeleke/)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/2349134422033)
-
-## My Github Stats
 
 ## My Github Stats
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Sobilo34&show_icons=true&count_private=true&hide_title=true&hide=prs&theme=radical)
