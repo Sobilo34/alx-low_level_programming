@@ -1,5 +1,7 @@
 <h2 align="center">ALX LOW-LEVEL PROGRAMMING.</h2>
 
+![image](https://github.com/Sobilo34/alx-low_level_programming/assets/122975292/ff6ec5e2-f7cf-40d1-a628-11862a68a757)
+
 <p align="center">
 <a href="https://github.com/hunterxcobby"><img title="hunter" src="https://img.shields.io/badge/github-hunterxcobby-orange.svg?style=social&logo=github"></a>
 </p>
