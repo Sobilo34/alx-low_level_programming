@@ -1,9 +1,8 @@
 <h2 align="center">ALX LOW-LEVEL PROGRAMMING.</h2>
 
 <div style="position: relative; left: 40%; display: block; justify-content: center; align-items: center; height: 100vh;">
-    <img src="https://github.com/Sobilo34/alx-low_level_programming/blob/main/assets/122975292/a688190c-5f75-404d-bb17-8a1c85b16b7e" style="height: 300px; width: 400px;">
+    <img src="https://github.com/Sobilo34/alx-low_level_programming/assets/122975292/a688190c-5f75-404d-bb17-8a1c85b16b7e" style="height: 300px; width: 400px;">
 </div>
-
 
 This repo contains projects to help assist one get introduced to the C programming language..
 
