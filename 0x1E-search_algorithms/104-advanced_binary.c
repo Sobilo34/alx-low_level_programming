@@ -1,15 +1,14 @@
 #include "search_algos.h"
 
 /**
- * advanced_binary - Recursive binary search algorithm
- * @array: Pointer to the first element of the array to search in
+ * advanced_binary_recursive - A function for binary search algorithm
+ * @array: Pointer to the first element of the [sub]array to search in
  * @low: Lower bound of the search range
  * @high: Upper bound of the search range
  * @value: Value to search for
  * Return: Index where value is located, or -1 if not present
  */
-
-int advanced_binary(int *array, size_t low, size_t high, int value)
+int advanced_binary_recursive(int *array, size_t low, size_t high, int value)
 {
 	size_t i;
 
@@ -22,12 +21,29 @@ int advanced_binary(int *array, size_t low, size_t high, int value)
 	printf("%d\n", array[i]);
 
 	i = low + (high - low) / 2;
+
 	if (array[i] == value && (i == low || array[i - 1] != value))
 		return (i);
 
 	if (array[i] >= value)
-		return (advanced_binary(array, low, i, value));
+		return (advanced_binary_recursive(array, low, i, value));
 
-	return (advanced_binary(array, i + 1, high, value));
+	return (advanced_binary_recursive(array, i + 1, high, value));
 }
 
+/**
+ * advanced_binary - Function to initiate the recursive binary search
+ *  by searching for value in a sorted array of integers.
+ * @array: Pointer to the first element of the array to search in
+ * @size: Number of elements in array
+ * @value: Value to search for
+ * Return: Index where value is located, or -1 if not present
+ */
+
+int advanced_binary(int *array, size_t size, int value)
+{
+	if (array == NULL || size == 0)
+		return (-1);
+
+	return (advanced_binary_recursive(array, 0, size - 1, value));
+}
